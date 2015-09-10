@@ -1,0 +1,3284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Última atualização: 2014-08-05 -->
+
+<university xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://base.repositorio.unesp.br/XMLSchema/Item2CollectionRuler" label="Universidade Estadual Paulista (UNESP)">
+
+	<rules>
+		<match>unesp</match>
+		<match>universidade estadual paulista</match>
+		<match>universidade estadual de sao paulo</match>
+		<match>univ sao paulo state</match>
+		<match>univ estadual paulista</match>
+		<match>univ estad paulista</match>
+		<match>state univ sao paulo</match>
+		<match>state univ sao paulo</match>
+		<match>sao paulo state univ</match>
+		<match>sao paulo state univ</match>
+		<match>paulista state univ</match>
+		<match>mesquita filho</match>
+		<match>julio de mesquita</match>
+		<match>ibilce</match>
+		<match>estadual paulista</match>
+		<match>aracatuba</match>
+		<match>araraquara</match>
+		<match>assis</match>
+		<match>bauru</match>
+		<match>botucatu</match>
+		<match>dracena</match>
+		<match>franca</match>
+		<match>guaratingueta</match>
+		<match>ilha solteira</match>
+		<match>itapeva</match>
+		<match>jaboticabal</match>
+		<match>marilia</match>
+		<match>ourinhos</match>
+		<match>presidente prudente</match>
+		<match>registro</match>
+		<match>rio claro</match>
+		<match>rosana</match>
+		<match>rio preto</match>
+		<match>sao jose dos campos</match>
+		<match>sao paulo</match>
+		<match>sao vicente</match>
+		<match>sorocaba</match>
+		<match>tupa</match>
+	</rules>
+
+	<campi>
+
+		<!-- Centros (não possuem departamentos) -->
+
+		<campus label="Centro de Oncologia Bucal (COB) - Araçatuba">
+			<rules>
+				<match>centro de oncologia bucal</match>
+				<match>oral oncology center</match>
+				<match>oral oncol ctr</match>
+				<match>oral canc</match>
+			</rules>
+			<handle>11449/812</handle>
+		</campus>
+
+		<campus label="Centro de Assistência Odontológica a Excepcionais (CAOE) - Araçatuba">
+			<rules>
+				<match>centro de assistencia odontologica a excepcionais</match>
+				<match>caoe</match>
+			</rules>
+			<handle>11449/635</handle>
+		</campus>
+		
+		<campus label="Centro de Ciências de Araraquara (CCA) - Araraquara">
+			<rules>
+				<match>centro de ciencias de araraquara</match>
+			</rules>
+			<handle>11449/640</handle>
+		</campus>
+		
+		<campus label="Centro de Pesquisas da Infância e da Adolescência (CENPE) - Araraquara">
+			<rules>
+				<match>centro de pesquisas da infancia e da adolescencia</match>
+				<match>cenpe</match>
+				<match>centro de estudos assessoria e orientacao educativa</match>
+				<match>ceao</match>
+			</rules>
+			<handle>11449/816</handle>
+		</campus>
+		
+		<campus label="Centro de Documentação e Apoio à Pesquisa (CEDAP) - Assis">
+			<rules>
+				<match>centro de documentacao e apoio a pesquisa</match>
+				<match>cedap</match>
+				<match>documentation and support in historical research</match>
+			</rules>
+			<handle>11449/642</handle>
+		</campus>
+
+		<campus label="Centro de Pesquisa e Psicologia Aplicada Dra. Betti Katzenstein (CPPA) - Assis">
+			<rules>
+				<match>centro de pesquisa e psicologia aplicada</match>
+				<match>katzenstein</match>
+				<match>cppa</match>
+			</rules>
+			<handle>11449/814</handle>
+		</campus>
+		
+		<campus label="Centro de Estudos de Venenos e Animais Peçonhentos (CEVAP) - Botucatu">
+			<rules>
+				<match>centro de estudos de venenos e animais peconhentos</match>
+				<match>study venoms venomous anim</match>
+				<match>veneno</match>
+				<match>cevap</match>
+				<match>venom</match>
+				<match>peconhento</match>
+			</rules>
+			<handle>11449/768</handle>
+		</campus>
+
+		<campus label="Centro de Microscopia Eletrônica (CME) - Botucatu">
+			<rules>
+				<match>centro de microscopia eletronica</match>
+				<match>microscopia</match>
+				<match>microscopy</match>
+			</rules>
+			<handle>11449/810</handle>
+		</campus>
+
+		<campus label="Centro de Isótopos Estáveis (CIE) - Botucatu">
+			<rules>
+				<match>isotopos estaveis</match>
+			</rules>
+			<handle>11449/804</handle>
+		</campus>
+		
+		<campus label="Centro de Estudos da Educação e da Saúde (CEES) - Marília">
+			<rules>
+				<match>centro de estudos da educacao da saude</match>
+				<match>centro de estudos da educacao e da saude</match>
+				<match>centro de orientacao educacional</match>
+			</rules>
+			<handle>11449/650</handle>
+		</campus>
+		
+		<campus label="Centro de Análise e Planejamento Ambiental (CEAPLA) - Rio Claro">
+			<rules>
+				<match>centro de analise e planejamento ambiental</match>
+				<match>ceapla</match>
+				<match>centre for environmental analysis and planning</match>
+			</rules>
+			<handle>11449/409</handle>
+		</campus>
+
+		<campus label="Centro de Estudos Ambientais (CEA) - Rio Claro">
+			<rules>
+				<match>centro de estudos ambientais</match>
+				<match>center of environmental studies</match>
+				<match>ctr estudos ambientais</match>
+			</rules>
+			<handle>11449/644</handle>
+		</campus>
+
+		<campus label="Centro de Assistência Toxicológica (CEATOX) - Botucatu">
+			<rules>
+				<match>centro de assistencia toxicologica</match>
+				<match>ceatox</match>
+				<match>center for toxicological</match>
+				<match>toxicol assistance</match>
+				<match>assistencia toxicol</match>
+				<match>assisten toxicol</match>
+			</rules>
+			<handle>11449/637</handle>
+		</campus>
+
+		<campus label="Centro de Raízes e Amidos Tropicais (CERAT) - Botucatu">
+			<rules>
+				<match>centro de raizes e amidos tropicais</match>
+				<match>cerat</match>
+				<match>raizes</match>
+				<match>amidos tropicais</match>
+				<match>trop root</match>
+				<match>tropical root</match>
+			</rules>
+			<handle>11449/820</handle>
+		</campus>
+
+		<campus label="Instituto de Pesquisas Meteorológicas (IPMet) - Bauru">
+			<rules>
+				<match>instituto de pesquisas meteorologicas</match>
+				<match>ipmet</match>
+				<match>meteorologicas</match>
+				<match>inst pesquisas meteorol</match>
+				<match>meteorological research institute</match>
+			</rules>
+			<handle>11449/25227</handle>
+		</campus>
+
+		<campus label="Centro de Psicologia Aplicada - Bauru">
+			<rules>
+				<match>centro de psicologia aplicada</match>
+			</rules>	
+			<handle>11449/818</handle>
+		</campus>
+		
+		<campus label="Instituto de Políticas Públicas e Relações Internacionais (IPPRI) - São Paulo">
+			<rules>
+				<match>instituto de politicas publicas e relacoes internacionais</match>
+				<match>ippri</match>
+			</rules>
+			<handle>11449/25232</handle>
+		</campus>
+
+		<!-- Faculdades, institutos e campi experimentais (em ordem alfabética pelo município) -->
+
+		<campus label="Faculdade de Medicina Veterinária (FMVA) - Araçatuba">
+			<rules>
+				<match>aracatuba</match>
+				<match>aracotuba</match>
+				<match>fmva</match>
+				<match>aractuba</match>
+				<match>clin surg anim reprod</match>
+			</rules>
+			<departments>
+				<department label="Apoio, produção e saúde animal">
+					<rules>
+						<match>apoio producao e saude animal</match>
+						<match>anim hlth</match>
+						<match>anim prod hlth</match>
+						<match>apoio producao e saude animal</match>
+						<match>apoio</match>
+						<match>biosci prod anim hlth</match>
+						<match>dapsa</match>
+						<match>hlth anim</match>
+						<match>prod anim hlth</match>
+						<match>prod saude anim</match>
+						<match>prod support anim hlth</match>
+						<match>producao e saude animal</match>
+						<match>support</match>
+						<match>animal health and production</match>
+						<match>anim health</match>
+						<!-- Não acrescente a variante "producao"; evite conflito com "reproducao" -->
+					</rules>
+					<handle>11449/14707</handle>
+				</department>
+				<department label="Clínica e cirurgia e reprodução animal">
+					<rules>
+						<match>clinica e cirurgia e reproducao animal</match>
+						<match>anim clin med surg reprod</match>
+						<match>anim clin surg reprod</match>
+						<match>animal reproduct</match>
+						<match>clin cururgia reprod</match>
+						<match>ccra</match>
+						<match>clin cirurg reprod anim</match>
+						<match>clin cirurgia reprod anim</match>
+						<match>clin surg anim reprod</match>
+						<match>clin surg reprod</match>
+						<match>reprod anim</match>
+						<match>reproducao</match>
+						<match>animal clinics surgery and reproduction</match>
+						<!-- Não acrescente a variante "cirurgia"; evite conflito com "cirurgia e clinica integrada" (FOA) -->
+						<!-- Não acrescente a variante "clinica"; evite conflito com "patologia e propedeutica clinica" (FOA) -->
+					</rules>
+					<handle>11449/14823</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Odontologia (FOA) - Araçatuba">
+			<rules>
+				<match>aracatuba</match>
+				<match>aracotuba</match>
+				<match>aractuba</match>
+				<match>16015050</match>
+			</rules>
+			<departments>
+				<department label="Ciências básicas">
+					<rules>
+						<match>ciencias basicas</match>
+						<match>basic sci</match>
+						<match>basicas</match>
+						<!-- Resolução 26, de 29 de abril de 1998 -->
+						<match>fisiol</match>
+						<match>physiol</match>
+					</rules>
+					<handle>11449/14934</handle>
+				</department>
+				<department label="Odontologia Restauradora">
+					<rules>
+						<match>odontologia restauradora</match>
+						<match>restorat dent</match>
+						<match>restaur</match>
+						<match>restauradora</match>
+						<match>restorative dentistry</match>
+						<match>dent res</match>
+						<match>odont res</match>
+						<match>odonto res</match>
+						<match>endodontia</match>
+						<match>endodontics</match>
+						<match>endodont</match>
+					</rules>
+					<handle>11449/15561</handle>
+				</department>
+				<department label="Cirurgia e clínica integrada">
+					<rules>
+						<match>cirurgia e clinica integrada</match>
+						<match>integrada</match>
+						<match>integrated</match>
+						<match>oral surg</match>
+						<match>maxillofacial</match>
+						<match>cirurg clin integ</match>
+						<match>surgery and general clinical</match>
+						<!-- Não acrescente a variante "cirurgia"; evite conflito com "clinica e cirurgia e reproducao animal" (FMVA) -->
+						<!-- Não acrescente a variante "clinica"; evite conflito com "patologia e propedeutica clinica" (FOA) -->
+					</rules>
+					<handle>11449/15004</handle>
+				</department>
+				<department label="Odontologia infantil e social">
+					<rules>
+						<match>odontologia infantil e social</match>
+						<match>child</match>
+						<match>social dent</match>
+						<match>infantil</match>
+						<match>pediat dent</match>
+						<match>odont inf soc</match>
+						<match>pediatric and community dentistry</match>
+						<match>community and pediatric</match>
+						<match>pediatric dentistry</match>
+						<match>odont inf social</match>
+						<match>odonthol social</match>
+					</rules>
+					<handle>11449/15363</handle>
+				</department>
+				<department label="Materiais odontológicos e prótese">
+					<rules>
+						<match>materiais odontologicos e protese</match>
+						<match>dent mat</match>
+						<match>mat odontol</match>
+						<match>materiais</match>
+						<match>prosthodont</match>
+						<match>protese</match>
+						<match>dental materials</match>
+						<match>prostheses</match>
+						<match>prosthesis</match>
+						<match>materiales odontologicos</match>
+					</rules>
+					<handle>11449/15168</handle>
+				</department>
+				<department label="Patologia e propedêutica clínica">
+					<rules>
+						<match>patologia e propedeutica clinica</match>
+						<match>patol</match>
+						<match>pathol</match>
+						<match>propedeut</match>
+						<match>immunol</match>
+						<match>microbiologia e imunologia basicas</match>
+						<match>microbiol</match>
+					</rules>
+					<handle>11449/15620</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Instituto de Química (IQ) - Araraquara">
+			<rules>
+				<match>araraquara</match>
+				<match>arararquara</match>
+				<match>araraguara</match>
+				<match>araraquar</match>
+				<match>inst quim</match>
+				<match>inst chem</match>
+				<match> iq</match>
+				<match>instituto de quimica</match>
+				<match>chemistry institute</match>
+				<match>institute of chemistry</match>
+				<match>14801970</match>
+				<!-- Nunca utilize a variante "quimica" para os departamentos do IQ -->
+			</rules>
+			<departments>
+				<department label="Físico química">
+					<rules>
+						<match>fisico quimica</match>
+						<match>fisicoquimica</match>
+						<match>chem phys</match>
+						<match>fis quim</match>
+						<match>fiscoquim</match>
+						<match>fisicoquim</match>
+						<match>physicochem</match>
+						<match>phys chem</match>
+						<match>quim fis</match>
+						<match>chemistryphysics</match>
+						<match>physicalchemistry</match>
+						<match>physical chemistry</match>
+						<match>physicschemistry</match>
+						<match>physics chemistry</match>
+					</rules>
+					<handle>11449/25362</handle>
+				</department>
+				<department label="Bioquímica e tecnologia">
+					<rules>
+						<match>bioquimica e tecnologia</match>
+						<match>biochem</match>
+						<match>bioquim</match>
+						<match>bioquim biotecnol</match>
+						<match>tecnol quim</match>
+						<match>bioquimica</match>
+						<match>tecnologia</match>
+						<match>dbtq</match>
+						<match>quim tecnol</match>
+					</rules>
+					<handle>11449/25235</handle>
+				</department>
+				<department label="Química orgânica">
+					<rules>
+						<match>quimica organica</match>
+						<match>quim organ</match>
+						<match> organ chem</match>
+						<match> organic chemistry</match>
+						<!-- Não acrescente a variante "organica"; evite conflito com "quimica inorganica" -->
+					</rules>
+					<handle>11449/26196</handle>
+				</department>
+				<department label="Química analítica">
+					<rules>
+						<match>quimica analitica</match>
+						<match>quim analit</match>
+						<match>analyt chem</match>
+						<match>quim anal</match>
+						<match>analytical chemistry</match>
+						<match>dqa</match>
+					</rules>
+					<handle>11449/25683</handle>
+				</department>
+				<department label="Química inorgânica">
+					<rules>
+						<match>quimica inorganica</match>
+						<match>quim geral inorgan</match>
+						<match>quim inorgan</match>
+						<match>inorgan</match>
+						<match>inorganic chemistry</match>
+						<match>chemistry inorganic</match>
+						<match>inorgan chem</match>
+						<match>quimica geral e inorganica</match>
+						<match>quim gerale</match>
+						<match>quim geral e inorg</match>
+						<match>inorganic and general chemistry</match>
+						<match>dqgi</match>
+					</rules>
+					<handle>11449/25985</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências e Letras (FCLAR) - Araraquara">
+			<rules>
+				<match>araraquara</match>
+				<match>arararquara</match>
+				<match>araraguara</match>
+				<match>araraquar</match>
+				<match>fclar</match>
+				<match>college of letters and sciences</match>
+				<match>celic</match>
+				<!-- Nome anterior (http://portal.fclar.unesp.br/instituicao/index.php) -->
+				<match>instituto de letras ciencias sociais e educacao</match>
+				<!-- Sigla anterior (http://portal.fclar.unesp.br/instituicao/index.php) -->
+				<match>ilcse</match>
+				<match>14800901</match>
+			</rules>
+			<departments>
+				<department label="Administração pública">
+					<rules>
+						<match>administracao publica</match>
+						<match>administracao</match>
+						<match>public administration</match>
+					</rules>
+					<handle>11449/6348</handle>
+				</department>
+				<department label="Antropologia, política e filosofia">
+					<rules>
+						<match>antropologia politica e filosofia</match>
+						<match>antropologia</match>
+						<match>politica</match>
+						<match>departamento de filosofia</match>
+						<!-- Não acrescente a variante "filosofia"; evite conflito com o nome antigo da unidade -->
+					</rules>
+					<handle>11449/6350</handle>
+				</department>
+				<department label="Ciências da educação">
+					<rules>
+						<match>ciencias da educacao</match>
+					</rules>
+					<handle>11449/6358</handle>
+				</department>
+				<department label="Didática">
+					<rules>
+						<match>didatica</match>
+					</rules>
+					<handle>11449/6377</handle>
+				</department>
+				<department label="Economia">
+					<rules>
+						<match>economia</match>
+						<match>economic</match>
+						<match>dept econ</match>
+						<match>depto econ</match>
+					</rules>
+					<handle>11449/6384</handle>
+				</department>
+				<department label="Letras modernas">
+					<rules>
+						<match>letras modernas</match>
+						<match>modern</match>
+						<match>modern languages</match>
+						<match>linguisticocomputacionais</match>
+						<match>linguistico computacionais</match>
+						<match>celic</match>
+						<!-- Não acrescente a variante "letras"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/6399</handle>
+				</department>
+				<department label="Linguística">
+					<rules>
+						<match>linguistica</match>
+						<match>linguistics</match>
+					</rules>
+					<handle>11449/6406</handle>
+				</department>
+				<department label="Literatura">
+					<rules>
+						<match>literatura</match>
+						<match>literature</match>
+					</rules>
+					<handle>11449/6412</handle>
+				</department>
+				<department label="Psicologia da educação">
+					<rules>
+						<match>psicologia da educacao</match>
+						<match>psicologia</match>
+						<match>psicol educ</match>
+					</rules>
+					<handle>11449/6415</handle>
+				</department>
+				<department label="Sociologia">
+					<rules>
+						<match>sociologia</match>
+						<match>sociology</match>
+						<match>de ciencias sociais</match>
+					</rules>
+					<handle>11449/6420</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Odontologia (FOAR) - Araraquara">
+			<rules>
+				<match>araraquara</match>
+				<match>arararquara</match>
+				<match>araraguara</match>
+				<match>araraquar</match>
+				<match>foar</match>
+				<match>14801903</match>
+			</rules>
+			<departments>
+				<department label="Odontologia restauradora">
+					<rules>
+						<match>odontologia restauradora</match>
+						<match>restorat dent</match>
+						<match>oral rehabil</match>
+						<match>operat dent</match>
+						<match>restauradora</match>
+						<match>restorative dentistry</match>
+						<match>dent res</match>
+						<match>odont res</match>
+						<match>odonto res</match>
+						<match>endodont</match>
+						<match>restoring dent</match>
+					</rules>
+					<handle>11449/16619</handle>
+				</department>
+				<department label="Odontologia social">
+					<rules>
+						<match>odontologia social</match>
+						<match>social</match>
+						<match>social dent</match>
+						<match>social odontol</match>
+						<match>odontol social</match>
+						<match>community dent</match>
+					</rules>
+					<handle>11449/16788</handle>
+				</department>
+				<department label="Materiais odontológicos e prótese">
+					<rules>
+						<match>materiais odontologicos e protese</match>
+						<match>prosthodont</match>
+						<match>mat dentarios</match>
+						<match>prosthe</match>
+						<match>dent mat</match>
+						<match>materiais</match>
+						<match>protese</match>
+					</rules>
+					<handle>11449/16351</handle>
+				</department>
+				<department label="Fisiologia e patologia">
+					<rules>
+						<match>fisiologia e patologia</match>
+						<match>fisiologia</match>
+						<match>physiol</match>
+						<match>pathol</match>
+						<match>patologia</match>
+						<match>fisiol</match>
+						<match>patol</match>
+					</rules>
+					<handle>11449/16054</handle>
+				</department>
+				<department label="Clínica infantil">
+					<rules>
+						<match>clinica infantil</match>
+						<match>pediat dent</match>
+						<match>pediat clin</match>
+						<match>pediat orthodont</match>
+						<match>orthodont paediat</match>
+						<match>paediat dent</match>
+						<match>childrens dent</match>
+						<match>children</match>
+						<match>paediatric dentistry</match>
+						<match>pediatric dentistry</match>
+						<match>clin infantil</match>
+						<match>child clin</match>
+						<match>orthodont</match>
+						<match>ortodontia</match>
+						<match>ortodont</match>
+						<!-- Não acrescente a variante "clinica"; evite conflito com "analises clinicas"(FCFAR) -->
+					</rules>
+					<handle>11449/15667</handle>
+				</department>
+				<department label="Diagnóstico e cirurgia">
+					<rules>
+						<match>diagnostico e cirurgia</match>
+						<match>diag surg</match>
+						<match>diagnostico</match>
+						<match>diag</match>
+						<match>periodontol</match>
+						<match>periodont</match>
+						<match>maxillofacial</match>
+					</rules>
+					<handle>11449/15807</handle>
+				</department>
+				<department label="Morfologia">
+					<rules>
+						<match>morfologia</match>
+						<match>morfol</match>
+						<match>morphol</match>
+					</rules>
+					<handle>11449/16552</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências Farmacêuticas (FCFAR) - Araraquara">
+			<rules>
+				<match>araraquara</match>
+				<match>arararquara</match>
+				<match>araraguara</match>
+				<match>araraquar</match>
+				<match>fcfar</match>
+				<match>fcf</match>
+				<match>farmaco</match>
+				<match>farmaceutica</match>
+				<match>pharmaceutical sciences</match>
+				<match>sch pharm</match>
+				<match>14801902</match>
+			</rules>
+			<departments>
+				<department label="Fármacos e medicamentos">
+					<rules>
+						<match>farmacos e medicamentos</match>
+						<match>farmacos</match>
+						<match>drugs pharmaceut</match>
+						<match>drugs med</match>
+						<match>formacos medicamentos</match>
+						<match>drugs med</match>
+						<match>farmcos med</match>
+						<match>farmacos</match>
+						<match>medicamentos</match>
+						<match>farm med</match>
+						<match>drugs and medications</match>
+						<match>drugs and medicines</match>
+						<match>drugs and pharmaceuticals</match>
+						<!-- Não acrescente as variantes "farm" e "pharm"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/7520</handle>
+				</department>
+				<department label="Ciências biológicas">
+					<rules>
+						<match>ciencias biologicas</match>
+						<match>biol sci</match>
+						<match>biologicas</match>
+						<match>biological sciences</match>
+						<match>ciencias biol</match>
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/7388</handle>
+				</department>
+				<department label="Alimentos e nutrição">
+					<rules>
+						<match>alimentos e nutricao</match>
+						<match>food nutr</match>
+						<match>food</match>
+						<match>alimentos</match>
+						<match>nutricao</match>
+						<match>food and nutrition</match>
+					</rules>
+					<handle>11449/7144</handle>
+				</department>
+				<department label="Princípios ativos naturais e toxicologia">
+					<rules>
+						<match>principios ativos naturais e toxicologia</match>
+						<match>toxicol</match>
+						<match>nat act principles toxicol</match>
+						<match>principios ativos nat toxicol</match>
+						<match>toxicologia</match>
+						<match>naturais</match>
+						<match>pant</match>
+						<match>active principles</match>
+						<match>nat act principles</match>
+					</rules>
+					<handle>11449/8072</handle>
+				</department>
+				<department label="Análises clínicas">
+					<rules>
+						<match>analises clinicas</match>
+						<match>anal clin</match>
+						<match>clin anal</match>
+						<match>analise</match>
+						<match>clinical analysis</match>
+						<match>clinical analyses</match>
+						<!-- Não acrescente a variante "clinica"; evite conflito com "clinica infantil" (FOAR) -->
+					</rules>
+					<handle>11449/7214</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências e Letras (FCLAS) - Assis">
+			<rules>
+				<match>assis</match>
+				<match>fclas</match>
+				<match>assiz</match>
+				<match>19806900</match>
+			</rules>
+			<departments>
+				<department label="Ciências biológicas">
+					<rules>
+						<match>ciencias biologicas</match>
+						<match>biol sci</match>
+						<match>ciencias biol</match>
+						<match>biologicas</match>
+						<match>biotechnological</match>
+						<match>biological science</match>
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/6428</handle>
+				</department>
+				<department label="Educação">
+					<rules>
+						<match>educacao</match>
+						<match>education</match>
+					</rules>
+					<handle>11449/6540</handle>
+				</department>
+				<department label="Psicologia clínica">
+					<rules>
+						<match>psicologia clinica</match>
+						<match>psicol clin</match>
+						<match>clinical psychology</match>
+						<match>clinica</match>
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia experimental e do trabalho" -->
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia evolutiva, social e escolar" -->
+					</rules>
+					<handle>11449/6578</handle>
+				</department>
+				<department label="Psicologia experimental e do trabalho">
+					<rules>
+						<match>psicologia experimental e do trabalho</match>
+						<match>psicol expt trabalho</match>
+						<match>expt psychol</match>
+						<match>trabalho</match>
+						<match>experimental</match>
+						<match>experimental psychology</match>
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia clinica" -->
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia evolutiva, social e escolar" -->
+					</rules>
+					<handle>11449/6614</handle>
+				</department>
+				<department label="Psicologia evolutiva, social e escolar">
+					<rules>
+						<match>psicologia evolutiva social e escolar</match>
+						<match>evolutiva</match>
+						<match>social</match>
+						<match>escolar</match>
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia experimental e do trabalho" -->
+						<!-- Não acrescente a variante "producao"; evite conflito com "psicologia clinica" -->
+					</rules>
+					<handle>11449/6603</handle>
+				</department>
+				<department label="História">
+					<rules>
+						<match>departamento de historia</match>
+						<match>depto historia</match>
+						<match>dept historia</match>
+						<!-- Não acrescente a variante "historia"; evite conflito com o nome anterior da unidade -->
+					</rules>
+					<handle>11449/6544</handle>
+				</department>
+				<department label="Letras modernas">
+					<rules>
+						<match>letras modernas</match>
+						<match>modernas</match>
+						<match>modern languages</match>
+						<!-- Não acrescente a variante "letras"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/6571</handle>
+				</department>
+				<department label="Literatura">
+					<rules>
+						<match>literatura</match>
+						<match>literature</match>
+					</rules>
+					<handle>11449/6576</handle>
+				</department>
+				<department label="Linguística">
+					<rules>
+						<match>linguistica</match>
+						<match>linguistics</match>
+					</rules>
+					<handle>11449/6574</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências (FC) - Bauru">
+			<rules>
+				<match>bauru</match>
+				<match>bauro</match>
+				<match>17033360</match>
+				<match>faculdade de ciencias departamento</match>
+			</rules>
+			<departments>
+				<department label="Ciências biológicas">
+					<rules>
+						<match>ciencias biologicas</match>
+						<match>biologicas</match>
+						<match>biol sci</match>
+						<match>biol</match>
+						<match>ciencias biol</match>
+						<match>biologicas</match>
+						<match>biological sciences</match>
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/8139</handle>
+				</department>
+				<department label="Matemática">
+					<rules>
+						<match>matematica</match>
+						<match>matemat</match>
+						<match>math</match>
+					</rules>
+					<handle>11449/8537</handle>
+				</department>
+				<department label="Química">
+					<rules>
+						<match>quimica</match>
+						<match>quim</match>
+						<match>chem</match>
+					</rules>
+					<handle>11449/8665</handle>
+				</department>
+				<department label="Psicologia">
+					<rules>
+						<match>psicologia</match>
+						<match>psicol</match>
+						<match>psychol</match>
+					</rules>
+					<handle>11449/8620</handle>
+				</department>
+				<department label="Computação">
+					<rules>
+						<match>computacao</match>
+						<match>computing science</match>
+						<match>comp sci</match>
+						<match>computer science</match>
+						<match>computing</match>
+						<match>computation</match>
+						<match>dept comp</match>
+					</rules>
+					<handle>11449/8267</handle>
+				</department>
+
+				<!-- Mantenha a sequência para evitar conflito -->
+
+				<department label="Educação física">
+					<rules>
+						<match>educacao fisica</match>
+						<match>phys educ</match>
+						<match>educ fis</match>
+						<match>physical education</match>
+					</rules>
+					<handle>11449/8339</handle>
+				</department>
+				<department label="Física">
+					<rules>
+						<match>fisica</match>
+						<match>physics</match>
+						<match>phys</match>
+						<match>fis</match>
+					</rules>
+					<handle>11449/8391</handle>
+				</department>
+				<department label="Educação">
+					<rules>
+						<match>educacao</match>
+						<match>educ</match>
+						<match>education</match>
+					</rules>
+					<handle>11449/8316</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Arquitetura, Artes e Comunicação (FAAC) - Bauru">
+			<rules>
+				<match>bauru</match>
+				<match>bauro</match>
+				<match>faculdade de arquitetura artes e comunicacao</match>
+				<match>faculdade de arquitetura</match>
+				<match>faac</match>
+				<match>design</match>
+				<match>17033360</match>
+			</rules>
+			<departments>
+				<department label="Arquitetura, urbanismo e paisagismo">
+					<rules>
+						<match>arquitetura urbanismo e paisagismo</match>
+						<match>arquitetura urbanismo e paisagismo</match>
+						<match>urbanismo</match>
+						<match>paisagismo</match>
+						<match>urbanism</match>
+						<match>landscaping</match>
+						<!-- Não acrescente a variante "arquitetura"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/864</handle>
+				</department>
+				<department label="Artes e representação gráfica">
+					<rules>
+						<match>artes e representacao grafica</match>
+						<match>representacao</match>
+						<match>graphical</match>
+						<match>grafica</match>
+						<!-- Não acrescente a variante "artes"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/867</handle>
+				</department>
+				<department label="Comunicação social">
+					<rules>
+						<match>departamento de comunicacao social</match>
+						<match>comunicacao social</match>
+						<match>social communication</match>
+						<!-- Não acrescente a variante "comunicacao"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/908</handle>
+				</department>
+				<department label="Design">
+					<rules>
+						<match>design</match>
+					</rules>
+					<handle>11449/910</handle>
+				</department>
+				<department label="Ciências humanas">
+					<rules>
+						<match>ciencias humanas</match>
+					</rules>
+					<handle>11449/884</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Engenharia (FEB) - Bauru">
+			<rules>
+				<match>bauru</match>
+				<match>feb</match>
+				<match>bauro</match>
+				<match>17033360</match>
+			</rules>
+			<departments>
+				<department label="Engenharia de produção">
+					<rules>
+						<match>engenharia de producao</match>
+						<match>engenharia de producao</match>
+						<match>prod engn management</match>
+						<match>production engineering</match>
+						<match>production engn</match>
+						<match>prod engn</match>
+						<match>producao</match>
+					</rules>
+					<handle>11449/8848</handle>
+				</department>
+				<department label="Engenharia mecânica">
+					<rules>
+						<match>engenharia mecanica</match>
+						<match>mech engn</match>
+						<match>engn mech</match>
+						<match>eng mecan</match>
+						<match>engn mecan</match>
+						<match>mechanical engineering</match>
+						<match>mecanica</match>
+					</rules>
+					<handle>11449/8937</handle>
+				</department>
+				<department label="Engenharia elétrica">
+					<rules>
+						<match>engenharia eletrica</match>
+						<match>electrical engineering</match>
+						<match>elect engn</match>
+						<match>engn eletr</match>
+						<match>electrical</match>
+						<match>eletrica</match>
+						<match> dee </match>
+						<match>unespfedee</match>
+					</rules>
+					<handle>11449/8878</handle>
+				</department>
+				<department label="Engenharia civil e ambiental">
+					<rules>
+						<match>engenharia civil e ambiental</match>
+						<match>environmental engineering</match>
+						<match>civil</match>
+						<match>ambiental</match>
+					</rules>
+					<handle>11449/8828</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências Agronômicas (FCA) - Botucatu">
+			<rules>
+				<match>botucatu</match>
+				<match>botocatu</match>
+				<match>botucaru</match>
+				<match>botucato</match>
+				<match>botucotu</match>
+				<match>botacatu</match>
+				<match>botuoatu</match>
+				<match>botucalu</match>
+				<match>bocatu</match>
+				<match>bocutatu</match>
+				<match>botiicatu</match>
+				<match>lageado</match>
+				<match>rubiao</match>
+				<match>faculdade de ciencias agronomica</match>
+				<match>fac de ciencias agronomica</match>
+				<match>fac ciencias agronomica</match>
+				<match>agronomical sciences college</match>
+				<match>fca </match>
+				<match>18610307</match>
+			</rules>
+			<departments>
+				<department label="Horticultura">
+					<rules>
+						<match>horticultura</match>
+						<match>horticulture</match>
+						<match>dept hort</match>
+					</rules>
+					<handle>11449/5181</handle>
+				</department>
+
+				<department label="Produção e melhoramento vegetal">
+					<rules>
+						<match>producao e melhoramento vegetal</match>
+						<match>agr prod vegetal</match>
+						<match>crop sci</match>
+						<match>crop science</match>
+						<match>melhoramento vegetal</match>
+						<match>plant prod</match>
+						<match>prod vegetal</match>
+						<match>veg prod</match>
+						<match>producao vegetal</match>
+						<match>vegetable prod</match>
+						<match>vegetal prod</match>
+						<match>producao de plantas</match>
+						<match>produccion vegetal</match>
+						<match>agric e melhoramento veg</match>
+						<match>melhoramento veg</match>
+						<match>plant breeding</match>
+						<!-- Não acrescente a variante "vegetal"; evite conflito com "protecao vegetal" -->
+					</rules>
+					<handle>11449/5266</handle>
+				</department>
+
+				<department label="Engenharia rural">
+					<rules>
+						<match>engenharia rural</match>
+						<match>rural engn</match>
+						<match>engn rural</match>
+						<match>agricultural engineering</match>
+						<match>eng rural</match>
+						<match>rural engineering</match>
+						<match>irrigacao</match>
+						<match>drenagem</match>
+						<match>ingenieria rural</match>
+					</rules>
+					<handle>11449/5042</handle>
+				</department>
+
+				<department label="Ciência florestal">
+					<rules>
+						<match>ciencia florestal</match>
+						<match>forest science</match>
+						<match>forest sci</match>
+						<match>ciencias florestais</match>
+						<match>ciencias ambientais</match>
+						<match>florestal</match>
+						<match>forest engineering</match>
+						<match>recursos florestais</match>
+						<match>silvicult</match>
+						<match>environm sci</match>
+						<match>environmental science</match>
+						<!-- RESOLUÇÃO UNESP Nº 29, DE 29 DE ABRIL DE 1998 -->
+						<!-- Não acrescente a variante "ciencia"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/4976</handle>
+				</department>
+
+				<department label="Solos e recursos ambientais">
+					<rules>
+						<match>solos e recursos ambientais</match>
+						<match>recursos ambientais</match>
+						<match>nat resource</match>
+						<match>recursos nat</match>
+						<match>nat resources</match>
+						<match>solo</match>
+						<match>recursos naturais</match>
+						<match>soil and environmental resources</match>
+						<match>environmental resources</match>
+						<match>natural resources</match>
+						<match>soil science</match>
+					</rules>
+					<handle>11449/6157</handle>
+				</department>
+
+				<department label="Proteção vegetal">
+					<rules>
+						<match>protecao vegetal</match>
+						<match>portecao plantas</match>
+						<match>plant protect</match>
+						<match>fitossanit</match>
+						<match>fitossanidade</match>
+						<match>vegetal protection</match>
+						<match>protecao</match>
+						<match>crop protection</match>
+						<match>defesa fitossanitaria</match>
+						<!-- Não acrescente a variante "vegetal"; evite conflito com "producao e melhoramento vegetal" -->
+					</rules>
+					<handle>11449/6054</handle>
+				</department>
+
+				<department label="Economia, sociologia e tecnologia">
+					<rules>
+						<match>economia sociologia e tecnologia</match>
+						<match>economy sociology and technology</match>
+						<match>sociologia</match>
+						<match>sociology</match>
+						<match>economia</match>
+						<match>economy</match>
+						<match>tecnol prod agropec</match>
+						<match>technol prod agropec</match>
+					</rules>
+					<handle>11449/4994</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Medicina (FMB) - Botucatu">
+			<rules>
+				<match>botucatu</match>
+				<match>botocatu</match>
+				<match>botucaru</match>
+				<match>botucat</match>
+				<match>botucotu</match>
+				<match>botacatu</match>
+				<match>botuoatu</match>
+				<match>botucalu</match>
+				<match>bocatu</match>
+				<match>bocutatu</match>
+				<match>botiicatu</match>
+				<match>lageado</match>
+				<match>rubiao</match>
+				<match>fmb</match>
+				<match>fm </match>
+				<match>medical school</match>
+				<match>school of medicine department</match>
+				<match>faculdade de medicina departamento</match>
+				<match>neurologia</match>
+				<match>ginecol</match>
+				<match>gynaecol</match>
+				<match>obstetrics</match>
+				<match>ortopedia</match>
+				<match>orthoped</match>
+				<match>enfermagem</match>
+				<match>nursing</match>
+				<match>oftalmo</match>
+				<match>dermatologia</match>
+				<match>radiotherapy</match>
+				<match>radioterapia</match>
+				<match>dermatol</match>
+				<match>neurolog</match>
+				<match>psiquiatria</match>
+				<match>psychiatry</match>
+				<match>department of urology</match>
+				<match>18618970</match>
+			</rules>
+			<departments>
+
+				<!-- Os departamentos de Anestesiologia e de Saúde pública foram acrescentados mais adiante para evitar conflitos -->
+
+				<department label="Ginecologia e obstetrícia">
+					<rules>
+						<match>ginecologia e obstetricia</match>
+						<match>ginecol</match>
+						<match>ginecologia</match>
+						<match>gynaecol</match>
+						<match>gynecol</match>
+						<match>gynecology and obstetrics</match>
+						<match>gynecology</match>
+						<match>mastologia</match>
+						<match>mastology</match>
+						<match>obstet gynecol</match>
+						<match>obstet</match>
+						<match>obstetr</match>
+						<match>obstetricia</match>
+						<match>obstetrics</match>
+					</rules>
+					<handle>11449/12026</handle>
+				</department>
+
+				<department label="Doenças tropicais e diagnóstico por imagem">
+					<rules>
+						<match>doencas tropicais e diagnostico por imagem</match>
+						<match>diagnost imagem</match>
+						<match>tropicais</match>
+						<match>trop dis</match>
+						<match>tropical diseases</match>
+						<match>doencas trop</match>
+						<match>diagnost imaging</match>
+						<match>imaging</match>
+						<match>trop dis area</match>
+						<match>imagem</match>
+					</rules>
+					<handle>11449/11751</handle>
+				</department>
+
+				<department label="Cirurgia e ortopedia">
+					<rules>
+						<match>cirurgia e ortopedia</match>
+						<match>surg orthoped</match>
+						<match>orthopaed</match>
+						<match>orthopedics</match>
+						<match>vascular</match>
+						<match>vasc orthopaed surg</match>
+						<match>vasc surg</match>
+						<match>orthoped</match>
+						<match>ortopedia</match>
+						<match>traumatol</match>
+						<match>plast surg</match>
+						<match>plastic surg</match>
+						<!-- Não acrescente a variante "cirurgia"; evite conflito com "oftalmologia, otorrinolaringologia e cirurgia de cabeca e pescoco" -->
+					</rules>
+					<handle>11449/11023</handle>
+				</department>
+
+				<department label="Clínica medica">
+					<rules>
+						<match>clinica medica</match>
+						<match>medical clinic</match>
+						<match>clin med</match>
+						<match>nucl med</match>
+						<match>dpto clin med</match>
+						<match>rehabil</match>
+						<match>internal med</match>
+						<match>nefro</match>
+						<match>nephro</match>
+						<match>pneumol</match>
+						<match>endocrino</match>
+						<match>metabolism</match>
+						<match>cardiol</match>
+						<match>hematol</match>
+						<!-- Não acrescente a variante "med"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/11217</handle>
+				</department>
+
+				<department label="Enfermagem">
+					<rules>
+						<match>enfermagem</match>
+						<match>nursing</match>
+					</rules>
+					<handle>11449/11908</handle>
+				</department>
+
+				<department label="Oftalmologia, otorrinolaringologia e cirurgia de cabeça e pescoço">
+					<rules>
+						<match>oftalmologia otorrinolaringologia e cirurgia de cabeca e pescoco</match>
+						<match>head and neck</match>
+						<match>otorrino</match>
+						<match>oftalmo</match>
+						<match>otohns</match>
+						<match>cabeca</match>
+						<match>pescoco</match>
+						<match>ccp</match>
+						<match>otorhinolaryngol</match>
+						<match>otolaryngol</match>
+						<match>ophthalmol</match>
+						<match>oft orl ccp</match>
+						<!-- Não acrescente a variante "cirurgia"; evite conflito com "cirurgia e ortopedia" -->
+					</rules>
+					<handle>11449/12509</handle>
+				</department>
+
+				<department label="Urologia">
+					<rules>
+						<!-- Foi acrescentado um espaço antes das variações para evitar conflitos com "neurologia" -->
+						<match> urologia</match>
+						<match> urol</match>
+					</rules>
+					<handle>11449/13419</handle>
+				</department>
+
+				<department label="Pediatria">
+					<rules>
+						<match>pediatria</match>
+						<match>pediat</match>
+						<match>paediat</match>
+					</rules>
+					<handle>11449/13106</handle>
+				</department>
+
+				<department label="Patologia">
+					<rules>
+						<match>patologia</match>
+						<match>patol</match>
+						<match>pathol</match>
+					</rules>
+					<handle>11449/12695</handle>
+				</department>
+
+				<department label="Dermatologia e radioterapia">
+					<rules>
+						<match>dermatologia e radioterapia</match>
+						<match>dermatologia</match>
+						<match>radiotherapy</match>
+						<match>radioterapia</match>
+						<match>dermatol</match>
+					</rules>
+					<handle>11449/11600</handle>
+				</department>
+
+				<department label="Neurologia, psicologia e psiquiatria">
+					<rules>
+						<match>neurologia psicologia e psiquiatria</match>
+						<match>psych</match>
+						<match>neurologia</match>
+						<match>psicologia</match>
+						<match>psiquiatria</match>
+						<match>neurol psicol psiquiatria</match>
+						<match>neurol psiquiatria psicol</match>
+						<match>neurol psychol psychiat</match>
+						<match>neurol psiquiatria</match>
+						<match>neurol psychiat psychol</match>
+						<match>neuro</match>
+						<match>neurosurg</match>
+						<match>psic</match>
+						<match>psiq</match>
+						<match>psych</match>
+					</rules>
+					<handle>11449/12348</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Instituto de Biociências (IBB) - Botucatu">
+			<rules>
+				<match>botucatu</match>
+				<match>botocatu</match>
+				<match>botucaru</match>
+				<match>botucato</match>
+				<match>botucotu</match>
+				<match>botacatu</match>
+				<match>botuoatu</match>
+				<match>botucalu</match>
+				<match>bocatu</match>
+				<match>bocutatu</match>
+				<match>botiicatu</match>
+				<match>lageado</match>
+				<match>rubiao</match>
+				<match>ibb</match>
+				<match>imunologia</match>
+				<match>immunology</match>
+				<match>bioestatist</match>
+				<match>microbiol immunol</match>
+				<match>18618000</match>
+			</rules>
+			<departments>
+				<department label="Morfologia">
+					<rules>
+						<match>morfologia</match>
+						<match>morphol</match>
+						<match>morfol</match>
+						<match>morphology</match>
+					</rules>
+					<handle>11449/18295</handle>
+				</department>
+
+				<department label="Química e bioquímica">
+					<rules>
+						<match>quimica e bioquimica</match>
+						<match>chem biochem</match>
+						<match>quim bioquim</match>
+						<match>bioquim</match>
+						<match>quim</match>
+						<match>chemistry</match>
+					</rules>
+					<handle>11449/18994</handle>
+				</department>
+
+				<department label="Física e biofísica">
+					<rules>
+						<match>fisica e biofisica</match>
+						<match>physics</match>
+						<match>biofisica</match>
+						<match>fis biofis</match>
+						<match>phys biophys</match>
+						<match>fis biofis</match>
+						<match>biophysics</match>
+						<match>fisica</match>
+					</rules>
+					<handle>11449/17556</handle>
+				</department>
+
+				<department label="Genética">
+					<rules>
+						<match>genetica</match>
+						<match>genet</match>
+						<match>genetics</match>
+					</rules>
+					<handle>11449/17845</handle>
+				</department>
+
+				<department label="Parasitologia">
+					<rules>
+						<match>parasitologia</match>
+						<match>parasitol</match>
+						<match>parasitology</match>
+					</rules>
+					<handle>11449/18778</handle>
+				</department>
+
+				<department label="Botânica">
+					<rules>
+						<match>botanica</match>
+						<match>botany</match>
+						<match>dept bot</match>
+					</rules>
+					<handle>11449/17211</handle>
+				</department>
+
+				<department label="Fisiologia">
+					<rules>
+						<match>fisiologia</match>
+						<match>physiol</match>
+						<match>fisiol</match>
+					</rules>
+					<handle>11449/17724</handle>
+				</department>
+
+				<department label="Anatomia">
+					<rules>
+						<match>anatomia</match>
+						<match>anatomy</match>
+						<match>anat</match>
+					</rules>
+					<handle>11449/16871</handle>
+				</department>
+
+				<department label="Microbiologia e imunologia">
+					<rules>
+						<match>microbiologia e imunologia</match>
+						<match>microbiol immunol</match>
+						<match>immunol microbiol</match>
+						<match>imunologia</match>
+						<match>microbiologia</match>
+						<match>microbiology</match>
+						<match>immunology</match>
+						<match>microbiol</match>
+						<match>imunol</match>
+						<match>microbiol immunol</match>
+					</rules>
+					<handle>11449/18031</handle>
+				</department>
+
+				<department label="Bioestatística">
+					<rules>
+						<match>bioestatistica</match>
+						<match>biostatistics</match>
+						<match>bioestat</match>
+						<match>biostat</match>
+						<match>bioestatist</match>
+					</rules>
+					<handle>11449/16952</handle>
+				</department>
+
+				<department label="Educação">
+					<rules>
+						<match>educacao</match>
+						<match>education</match>
+						<match>dept educ</match>
+					</rules>
+					<handle>11449/17387</handle>
+				</department>
+
+				<department label="Zoologia">
+					<rules>
+						<match>zoologia</match>
+						<match>zool</match>
+						<match>zoology</match>
+					</rules>
+					<handle>11449/19171</handle>
+				</department>
+
+				<department label="Farmacologia">
+					<rules>
+						<match>farmacologia</match>
+						<match>farmacol</match>
+						<match>pharmacol</match>
+					</rules>
+					<handle>11449/17421</handle>
+				</department>
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Medicina Veterinária e Zootecnia (FMVZ) - Botucatu">
+			<rules>
+				<match>botucatu</match>
+				<match>botocatu</match>
+				<match>botucaru</match>
+				<match>botucato</match>
+				<match>botucotu</match>
+				<match>botacatu</match>
+				<match>botuoatu</match>
+				<match>botucalu</match>
+				<match>bocatu</match>
+				<match>bocutatu</match>
+				<match>botiicatu</match>
+				<match>lageado</match>
+				<match>rubiao</match>
+				<match>fmvz</match>
+				<match>fac vet med anim sci</match>
+				<match>faculdade de medicina veterinaria e zootec</match>
+				<match>of veterinary medicine and animal science</match>
+				<match>fac med vet zootecn</match>
+				<match>fac de medicina veterinaria e zootecnia</match>
+				<match>vet radiol</match>
+				<match>exploracao</match>
+				<match>college of veterinary medicine</match>
+				<match>18618000</match>
+				<!-- Acrescentado por causa do departmento de Anestesiologia da FMB -->
+				<match>fmb</match>
+				<match>fm </match>
+				<match>faculdade de medicina departamento</match>
+			</rules>
+			<departments>
+
+				<department label="Reprodução animal e radiologia veterinária">
+					<rules>
+						<match>reproducao animal e radiologia veterinaria</match>
+						<match>radiologia veterinaria</match>
+						<match>reproducao animal</match>
+						<match>anim reprod vet radiol</match>
+						<match>reprod anim radiol vet</match>
+						<match>radiol anim reprod</match>
+						<match>reprod vet radiol</match>
+						<match>reprod anim radiol vet</match>
+						<match>reprod radiol vet</match>
+						<match>anim reprod</match>
+						<match>animal reproduction</match>
+						<match>veterinary radiology</match>
+						<match>reprod anim radiol</match>
+						<match>radiol</match>
+						<match>drarv</match>
+						<match>vet radiol</match>
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/14425</handle>
+				</department>
+
+				<department label="Higiene veterinária e saúde pública">
+					<rules>
+						<match>higiene veterinaria e saude publica</match>
+						<match>higiene vet saude</match>
+						<match>vet hyg publ hlth</match>
+						<match>hyg vet saude publ</match>
+						<match>higiene sanit saude publ</match>
+						<match>higiene vet saude publ</match>
+						<match>higiene</match>
+						<match>vet hyg and pub health</match>
+						<match>dhvsp</match>
+						<!-- Não acrescente a variante "publ hlth"; evite conflito com "publ hlth" (FMB) -->
+						<!-- Não acrescente a variante "saude publica"; evite conflito com "saude publica" (FMB) -->
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/13799</handle>
+				</department>
+
+				<department label="Melhoramento de nutrição animal">
+					<rules>
+						<match>melhoramento de nutricao animal</match>
+						<match>nutr anim</match>
+						<match>nutr melhoramento anim</match>
+						<match>melhoramento zootecn nutr anim</match>
+						<match>anim breeding nutr</match>
+						<match>animal nutrition</match>
+						<match>improvement of animal nutrition</match>
+						<match>melhoramento zootecn</match>
+						<match>nutricao</match>
+						<match>dmna</match>
+						<match>animal breeding and nutrition</match>
+						<match>breeding and animal nutrition</match>
+						<match>anim nutr breeding</match>
+					</rules>
+					<handle>11449/13941</handle>
+				</department>
+
+				<department label="Produção animal">
+					<rules>
+						<match> producao animal</match>
+						<match>animal production</match>
+						<match>anim prod</match>
+						<match>prod anim</match>
+						<match>exploracao</match>
+						<match>prod exploracao anim</match>
+						<match>exploracao prod anim</match>
+						<match>dpa</match>
+						<match>dpea</match>
+						<!-- Não acrescente a variante "producao"; evite conflito com "reproducao" -->
+					</rules>
+					<handle>11449/14124</handle>
+				</department>
+
+				<department label="Clínica veterinaria">
+					<rules>
+						<match>clinica veterinaria </match>
+						<match>veterinary clinic</match>
+						<match>clin vet</match>
+						<match>vet clin</match>
+						<match>dcv</match>
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+						<!-- Não acrescente a variante "clinica"; evite conflito com "clinica medica" (FMB) -->
+					</rules>
+					<handle>11449/13638</handle>
+				</department>
+
+				<!-- Mantenha a sequência para evitar conflito: -->
+
+				<department label="Cirurgia e anestesiologia veterinária">
+					<rules>
+						<match>cirurgia e anestesiologia veterinaria</match>
+						<match>veterinary anesthesiology</match>
+						<match>anestesiologia veterinaria</match>
+						<match>cirurgia anestesiol vet</match>
+						<match>cirurgia e anestesiologia</match>
+						<match>veterinary and anesthesiology</match>
+						<match>vet surg</match>
+						<match>veterinary surg</match>
+						<match>cirugia anestesiol vet</match>
+						<match>cirurgia anestesiol</match>
+						<match>veterinary surgery and anesthesiology</match>
+						<match>dcav</match>
+						<match>small animals</match>
+						<match>vet surg anesthesiol</match>
+						<!-- Não acrescente a variante "anestesiologia"; evite conflito com "anestesiologia" (FMB) -->
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/13514</handle>
+				</department>
+
+				<department label="Anestesiologia">
+					<rules>
+						<match>anestesiologia</match>
+						<match>anaesthesiol</match>
+						<match>anesthesiol</match>
+						<match>anestesiol</match>
+						<match>anesthesia</match>
+					</rules>
+					<handle>11449/10839</handle>
+				</department>
+
+				<department label="Saúde publica">
+					<rules>
+						<match>saude publica</match>
+						<match>public health</match>
+						<match>publ hlth</match>
+						<match>saude publ</match>
+						<match>publ hlth</match>
+						<match>saude colet</match>
+						<match>prat saude publ</match>
+						<match>saude pub</match>
+					</rules>
+					<handle>11449/13238</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Dracena">
+			<rules>
+				<match>dracena</match>
+				<match>17900000</match>
+			</rules>
+			<departments>
+
+				<department label="Engenharia agronômica">
+					<rules>
+						<match>engenharia agronomica</match>
+						<match>agricultural engineering</match>
+						<match>agronomica</match>
+						<match>engin</match>
+					</rules>
+					<handle>11449/4</handle>
+				</department>
+
+				<department label="Zootecnia">
+					<rules>
+						<match>zootecnia</match>
+						<match>zoo</match>
+					</rules>
+					<handle>11449/6</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Ciências Humanas e Sociais (FCHS) - Franca">
+			<rules>
+				<match>franca</match>
+				<match>faculdade de ciencias humanas e sociais</match>
+				<match>fchs</match>
+				<match>direito</match>
+				<match>fhdss</match>
+				<match>14400690</match>
+				<match>14409160</match>
+			</rules>
+			<departments>
+
+				<department label="História">
+					<rules>
+						<match>departamento de historia</match>
+						<!-- Não acrescentar a variante "historia"; evite conflito com o nome anterior da unidade -->
+					</rules>
+					<handle>11449/8800</handle>
+				</department>
+
+				<department label="Direito privado">
+					<rules>
+						<match>direito privado</match>
+						<match>privado</match>
+						<!-- Não acrescente a variante "direito"; evite conflito com "direito publico" -->
+					</rules>
+					<handle>11449/8792</handle>
+				</department>
+
+				<department label="Direito público">
+					<rules>
+						<match>direito publico</match>
+						<match>publico</match>
+						<!-- Não acrescente a variante "direito"; evite conflito com "direito privado" -->
+					</rules>
+					<handle>11449/8794</handle>
+				</department>
+
+				<department label="Educação, ciências sociais e políticas públicas">
+					<rules>
+						<match>educacao ciencias sociais e politicas publicas</match>
+						<match>educacao</match>
+						<match>education</match>
+						<match>educ</match>
+						<match>politicas</match>
+						<match>ciencias sociais</match>
+						<match>decspp</match>
+						<!-- Não acrescente a variante "sociais"; evite conflito com o nome da unidade -->
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/8796</handle>
+				</department>
+
+				<department label="Serviço social">
+					<rules>
+						<match>servico social</match>
+					</rules>
+					<handle>11449/8821</handle>
+				</department>
+
+				<department label="Relações internacionais">
+					<rules>
+						<match>relacoes internacionais</match>
+						<match>international relations</match>
+						<match>international affairs</match>
+						<match>int relat</match>
+					</rules>
+					<handle>11449/8816</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Engenharia (FEG) - Guaratinguetá">
+			<rules>
+				<match>guaratingueta</match>
+				<match>feg</match>
+				<match>guarating</match>
+				<match>guarantingueta</match>
+				<match>12516410</match>
+			</rules>
+			<departments>
+
+				<department label="Física e química">
+					<rules>
+						<match>fisica e quimica</match>
+						<match>physics and chemistry</match>
+						<match>quim</match>
+						<match>chem</match>
+						<match>fis</match>
+						<match>phys</match>
+						<match>dfq</match>
+					</rules>
+					<handle>11449/9071</handle>
+				</department>
+
+				<department label="Engenharia civil">
+					<rules>
+						<match>engenharia civil</match>
+						<match>civil</match>
+					</rules>
+					<handle>11449/9002</handle>
+				</department>
+
+				<department label="Materiais e tecnologia">
+					<rules>
+						<match>materiais e tecnologia</match>
+						<match>materials</match>
+						<match>technology</match>
+						<match>mat tecnol</match>
+						<match>mat technol</match>
+						<match>technol mat</match>
+						<match>tecn</match>
+						<match>dmt</match>
+					</rules>
+					<handle>11449/9315</handle>
+				</department>
+
+				<department label="Engenharia de produção">
+					<rules>
+						<match>engenharia de producao</match>
+						<match>producao</match>
+						<match>prod</match>
+						<match>production engineering</match>
+						<match>prod engn</match>
+					</rules>
+					<handle>11449/9491</handle>
+				</department>
+
+				<department label="Matemática">
+					<rules>
+						<match>matematica</match>
+						<match>math</match>
+						<match>dma</match>
+						<match>matemat</match>
+					</rules>
+					<handle>11449/9265</handle>
+				</department>
+
+				<department label="Engenharia mecânica">
+					<rules>
+						<match>engenharia mecanica</match>
+						<match>mecanica</match>
+						<match>engn mecan</match>
+						<match>mech</match>
+						<match>mecan</match>
+					</rules>
+					<handle>11449/9468</handle>
+				</department>
+
+				<department label="Energia">
+					<rules>
+						<match>energia</match>
+						<match>energy</match>
+					</rules>
+					<handle>11449/9020</handle>
+				</department>
+
+				<department label="Elétrica">
+					<rules>
+						<match>eletrica</match>
+						<match>electrical</match>
+						<match>elect</match>
+						<match>eletricidade</match>
+						<match>deefeg</match>
+					</rules>
+					<handle>11449/9011</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Engenharia (FEIS) - Ilha Solteira">
+			<rules>
+				<match>ilha solteira</match>
+				<match>solteira</match>
+				<match>soltiera</match>
+				<match>solteria</match>
+				<match>soletira</match>
+				<match>feis</match>
+				<match>15385000</match>
+			</rules>
+			<departments>
+
+				<department label="Engenharia elétrica">
+					<rules>
+						<match>engenharia eletrica</match>
+						<match>electrical</match>
+						<match>engn eletr</match>
+						<match>elect engn</match>
+						<match>engn elet</match>
+						<match>engn eletr</match>
+						<match>ingn elect</match>
+						<match>eletrica</match>
+						<match>engenharia electrica</match>
+						<match>dee</match>
+						<match>electr eng</match>
+						<match>elect</match>
+					</rules>
+					<handle>11449/9646</handle>
+				</department>
+
+				<department label="Engenharia mecânica">
+					<rules>
+						<match>engenharia mecanica</match>
+						<match>mechanics</match>
+						<match>engn mecan</match>
+						<match>mech enginnering</match>
+						<match>mech engn</match>
+						<match>mecanica</match>
+						<match>mechanic</match>
+						<match>engn mech</match>
+						<match>eng mecan</match>
+						<match>demfeis</match>
+					</rules>
+					<handle>11449/9888</handle>
+				</department>
+
+				<department label="Engenharia civil">
+					<rules>
+						<match>engenharia civil</match>
+						<match>civil</match>
+					</rules>
+					<handle>11449/9612</handle>
+				</department>
+
+				<department label="Fitotecnia, tecnologia de alimentos e sócio economia">
+					<rules>
+						<match>fitotecnia tecnologia de alimentos e socio economia</match>
+						<match>fitotecnia tecnologia de alimentos e socio economia</match>
+						<match>fitotecnia tecnol alimentos socioecon</match>
+						<match>fitotecn</match>
+						<match>tecnol</match>
+						<match>aliment</match>
+						<match>econom</match>
+					</rules>
+					<handle>11449/10333</handle>
+				</department>
+
+				<department label="Fitossanidade, engenharia rural e solos">
+					<rules>
+						<match>fitossanidade engenharia rural e solos</match>
+						<match>fitossanidade engn rural solos</match>
+						<match>fitossanidade rural engn soil</match>
+						<match>fitossanidade engn rural solo</match>
+						<match>fitossanidade</match>
+						<match>rural</match>
+						<match>solo</match>
+						<match>defers</match>
+					</rules>
+					<handle>11449/10152</handle>
+				</department>
+
+				<department label="Matemática">
+					<rules>
+						<match>matematica</match>
+						<match>matemat</match>
+						<match>math</match>
+					</rules>
+					<handle>11449/10501</handle>
+				</department>
+
+				<department label="Física e química">
+					<rules>
+						<match>fisica e quimica</match>
+						<match>fsica e qumica</match>
+						<match>fisicaquimica</match>
+						<match>physics and chemistry</match>
+						<match>fis quim</match>
+						<match>quim fis</match>
+						<match>chem phys</match>
+						<match>phys</match>
+						<match>dfq</match>
+						<match>fis e quim</match>
+						<match>fisica</match>
+						<match>physics</match>
+						<match>chemistry</match>
+						<match>quimica</match>
+						<match>fis</match>
+						<match>quim fis</match>
+					</rules>
+					<handle>11449/9955</handle>
+				</department>
+
+				<department label="Biologia e zootecnia">
+					<rules>
+						<match>biologia e zootecnia</match>
+						<match>biologia</match>
+						<match>zootecnia</match>
+						<match>biol zootecnia</match>
+						<match>biol zootechny</match>
+						<match>biol zootecny</match>
+						<match>bio</match>
+						<match>zoo</match>
+					</rules>
+					<handle>11449/9521</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Itapeva">
+			<rules>
+				<match>itapeva</match>
+				<match>madeireira</match>
+				<match>18409010</match>
+			</rules>
+			<handle>11449/30</handle>
+		</campus>
+
+		<campus label="Faculdade de Ciências Agrárias e Veterinárias (FCAV) - Jaboticabal">
+			<rules>
+				<match>jaboticabal</match>
+				<match>faculdade de ciencias agrarias e veterinaria</match>
+				<match>ciencias agrarias e veterinaria</match>
+				<match>faculdade de ciencia agrarias e veterinaria</match>
+				<match>fcav</match>
+				<match>jabotical</match>
+				<match>jacoticabal</match>
+				<match>14884900</match>
+			</rules>
+			<departments>
+
+				<department label="Produção vegetal">
+					<rules>
+						<match>producao vegetal</match>
+						<match>vegetable prod</match>
+						<match>plant prod</match>
+						<match>crop prod</match>
+						<match>vegetal prod</match>
+						<match>prod vegetal</match>
+						<match>horticultur</match>
+						<match>dept hort</match>
+						<!-- RESOLUÇÃO UNESP Nº 80, DE 01 DE OUTUBRO DE 1999 -->
+						<match>fitotecnia</match>
+						<match>genetica e melhoramento de plantas</match>
+						<!-- RESOLUÇÃO UNESP Nº 80, DE 01 DE OUTUBRO DE 1999 -->
+						<match>silvicult</match>
+						<!-- RESOLUÇÃO UNESP Nº 80, DE 01 DE OUTUBRO DE 1999 e  RESOLUÇÃO UNESP Nº 27, DE 29 DE ABRIL DE 1998 -->
+						<!-- Não acrescente a variante "producao"; evite conflito com "medicina veterinaria preventiva e reproducao animal" -->
+						<!-- Não acrescente a variante "vegetal"; evite conflito com "protecao vegetal" (fitossanidade) -->
+					</rules>
+					<handle>11449/3159</handle>
+				</department>
+
+				<department label="Engenharia rural">
+					<rules>
+						<match>engenharia rural</match>
+						<match>eng rural</match>
+						<match>rural engineering</match>
+						<match>engn rural</match>
+						<match>rural engn</match>
+						<!-- Não acrescente a variante "rural"; evite conflito com "economia rural" -->
+					</rules>
+					<handle>11449/1870</handle>
+				</department>
+
+				<department label="Economia rural">
+					<rules>
+						<match>economia rural</match>
+						<match>rural econ</match>
+						<match>economia</match>
+						<match>decr</match>
+						<!-- Não acrescente a variante "rural"; evite conflito com "engenharia rural" -->
+					</rules>
+					<handle>11449/1849</handle>
+				</department>
+
+				<department label="Solos e adubos">
+					<rules>
+						<match>solos e adubos</match>
+						<match>adubos</match>
+						<match>soil</match>
+						<match>fertilizers</match>
+						<match>suelos</match>
+						<match>abonos</match>
+						<match>solos</match>
+						<match>adub</match>
+					</rules>
+					<handle>11449/3658</handle>
+				</department>
+
+				<department label="Tecnologia">
+					<rules>
+						<match>tecnologia</match>
+						<match>prod tecnol sementes</match>
+						<match>tecnol</match>
+						<match>technol</match>
+						<match>bioquim</match>
+						<!-- RESOLUÇÃO UNESP Nº 27, DE 29 DE ABRIL DE 1998 -->
+						<match>biochem</match>
+						<!-- RESOLUÇÃO UNESP Nº 27, DE 29 DE ABRIL DE 1998 -->
+					</rules>
+					<handle>11449/3923</handle>
+				</department>
+
+				<department label="Biologia aplicada a agropecuária">
+					<rules>
+						<match>biologia aplicada a agropecuaria</match>
+						<match>biol aplicada agr</match>
+						<match>biol appl agr</match>
+						<match>appl biol agr</match>
+						<match>biol aplicada</match>
+						<match>biol aplicada agropecuaria</match>
+						<match>appl biol</match>
+						<match>aplicada</match>
+						<match>agropecuaria</match>
+						<match>biol aplicada agropecuaria</match>
+						<match>biology applied</match>
+						<match>biol aplicado agropecuaria</match>
+						<match>applied biology</match>
+						<match>dbaa</match>
+						<match>biol appl</match>
+						<match>biol apl</match>
+						<match>biologia</match>
+					</rules>
+					<handle>11449/924</handle>
+				</department>
+
+				<department label="Zootecnia">
+					<rules>
+						<match>zootecnia</match>
+						<match>zootecn</match>
+						<match>zoo</match>
+						<match>animal science</match>
+						<!--  RESOLUÇÃO UNESP Nº 27, DE 29 DE ABRIL DE 1998 -->
+						<match>melhoramento anim</match>
+						<match>melhoramento genetico anim</match>
+						<match>melhoramento genet anim</match>
+						<match>anim genet improvement</match>
+						<match>melhoramento genet anim</match>
+						<match>pastagens</match>
+					</rules>
+					<handle>11449/4188</handle>
+				</department>
+
+				<department label="Clínica e cirurgia veterinária">
+					<rules>
+						<match>clinica e cirurgia veterinaria</match>
+						<match>clinica e cirurgia</match>
+						<match>clinical and veterinary surgery</match>
+						<match>cirurgia veterinaria</match>
+						<match>clin cirurgia vet</match>
+						<match>clinic and surgery</match>
+						<match>vet clin surg</match>
+						<match>clin cirurgia</match>
+						<match>clinics and surg</match>
+						<match>vet med surg</match>
+						<match>clin med cirurg pequenos anim</match>
+						<match>clin pequenos anim</match>
+						<match>vet med surg</match>
+						<match>clin cirurgia</match>
+						<match>small anim med</match>
+						<match>cirurgia clin vet</match>
+						<match>clin vet</match>
+						<match>clin cirurg</match>
+						<match>veterinary clinics surgery</match>
+						<match>cirurgia e clinica animal</match>
+						<match>dcca</match>
+						<match>dccv</match>
+						<match>clin e cir vet</match>
+						<match>vet surg</match>
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/1564</handle>
+				</department>
+
+				<department label="Morfologia e fisiologia animal">
+					<rules>
+						<match>morfologia e fisiologia animal</match>
+						<match>anat fisiol anim</match>
+						<match>anat vet</match>
+						<match>morfologia</match>
+						<match>morphology</match>
+						<match>fisiologia animal</match>
+						<match>physiol</match>
+						<match>fisiol</match>
+						<match>anim morphol</match>
+						<match>fisiol anim</match>
+						<match>morfol fisiol anim</match>
+						<match>anim morphol physiol</match>
+						<match>dmfa</match>
+					</rules>
+					<handle>11449/2620</handle>
+				</department>
+
+				<department label="Patologia veterinária">
+					<rules>
+						<match>patologia veterinaria</match>
+						<match>veterinary pathology</match>
+						<match>patol anim</match>
+						<match>anim pathol</match>
+						<match>pathol</match>
+						<match>vet pathol</match>
+						<match>patol vet</match>
+						<match>patol</match>
+						<match>patologia animal</match>
+						<match>animal pathology</match>
+						<match>imunoparasitologia</match>
+						<match>immunoparasitol</match>
+						<match>dpve</match>
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/2828</handle>
+				</department>
+
+				<department label="Medicina veterinária preventiva e reprodução animal">
+					<rules>
+						<match>medicina veterinaria preventiva e reproducao animal</match>
+						<match>preventive veterinary medicine and animal reproduction</match>
+						<match>med vet prevent reprod anim</match>
+						<match>vet prevent med</match>
+						<match>prevent vet med anim reprod</match>
+						<match>vet med anim reprod</match>
+						<match>anim reprod</match>
+						<match>animal reproduction</match>
+						<match>reproducao animal</match>
+						<match>prevent med anim reprod</match>
+						<match>prevent vet med</match>
+						<match>prevent</match>
+						<match>reproducao</match>
+						<match>reprod anim</match>
+						<match>dmvpra</match>
+						<!-- Não acrescente a variante "veterinaria"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/2404</handle>
+				</department>
+
+				<department label="Fitossanidade">
+					<rules>
+						<match>fitossanidade</match>
+						<match>phytosan</match>
+						<match>plant protect</match>
+						<match>protecao vegetal</match>
+						<match>crop protect</match>
+						<match>fitossanit</match>
+						<match>vegetal protection</match>
+						<match>entomol</match>
+						<match>nematol</match>
+
+						<!-- Com a reforma administrativa na UNESP, no ano 2000, 
+                            houve a junção e formação de novos Departamentos na FCAV-UNESP, 
+                            através da fusão de Departamentos de áreas afins. 
+                            Assim, o Departamento de Entomologia e Nematologia uniu-se ao
+                            Departamento de Defesa Fitossanitária, o
+                            riginando o atual Departamento de Fitossanidade.
+                            Fonte: http://bit.ly/1stRwkC e RESOLUÇÃO UNESP Nº 04, DE 22 DE JANEIRO DE 1999 -->
+
+					</rules>
+					<handle>11449/1976</handle>
+				</department>
+
+				<department label="Ciências exatas">
+					<rules>
+						<match>ciencias exatas</match>
+						<match>exact sci</match>
+						<match>exatas</match>
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/1246</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Faculdade de Filosofia e Ciências (FFC) - Marília">
+			<rules>
+				<match>marilia</match>
+				<match>faculdade de filosofia e ciencia</match>
+				<match>ffc</match>
+				<match>educacao filosofia ciencias sociais e da documentacao</match>
+				<match>fonoaudiologia</match>
+				<match>terapia ocupacional</match>
+				<match>ciencia de informacao</match>
+				<match>speech therapy</match>
+				<match>occupational therapy</match>
+				<match>17525900</match>
+			</rules>
+			<departments>
+
+				<department label="Fonoaudiologia">
+					<rules>
+						<match>fonoaudiologia</match>
+						<match>speech language pathol audiol</match>
+						<match>speech language hearing therapy</match>
+						<match>fonoaudiol</match>
+						<match>speech language audiol</match>
+						<match>speech</match>
+						<match>phonoaudiol</match>
+						<match>speak hearing pathol</match>
+					</rules>
+					<handle>11449/10695</handle>
+				</department>
+
+				<department label="Educacao especial">
+					<rules>
+						<match>educacao especial</match>
+						<match>educ especial</match>
+						<match>special educ</match>
+						<match>especial</match>
+						<!-- Não acrescente a variante "educacao"; evite conflito com "psicologia da educacao" -->
+					</rules>
+					<handle>11449/10605</handle>
+				</department>
+
+				<department label="Fisioterapia e terapia ocupacional">
+					<rules>
+						<match>fisioterapia e terapia ocupacional</match>
+						<match>fisio</match>
+						<match>ocupacional</match>
+						<match>physiotherapy</match>
+						<match>occupational</match>
+					</rules>
+					<handle>11449/10687</handle>
+				</department>
+
+				<department label="Filosofia">
+					<rules>
+						<match>departamento de filosofia</match>
+						<match>dept de filosofia</match>
+						<match>depto de filosofia</match>
+						<match>dept filosofia</match>
+						<match>dept philosophy</match>
+						<!-- Não acrescente a variante "filosofia"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/10637</handle>
+				</department>
+
+				<department label="Sociologia e antropologia">
+					<rules>
+						<match>sociologia e antropologia</match>
+						<match>antropol</match>
+						<match>sociologia</match>
+						<match>sociology</match>
+						<match>anthropology</match>
+						<match>sociol antropol</match>
+					</rules>
+					<handle>11449/10824</handle>
+				</department>
+
+				<department label="Administração e supervisão escolar">
+					<rules>
+						<match>administracao e supervisao escolar</match>
+						<match>admin</match>
+						<match>escolar</match>
+					</rules>
+					<handle>11449/10535</handle>
+				</department>
+
+				<department label="Ciências políticas e econômicas">
+					<rules>
+						<match>ciencias politicas e economicas</match>
+						<match>polit</match>
+						<match>politica</match>
+						<match>econ</match>
+						<!-- Não acrescente a variante "ciencias"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/10583</handle>
+				</department>
+
+				<department label="Psicologia da educação">
+					<rules>
+						<match>psicologia da educacao</match>
+						<match>psico</match>
+						<match>psychology</match>
+						<!-- Não acrescente a variante "educacao"; evite conflito com "educacao especial" -->
+					</rules>
+					<handle>11449/10819</handle>
+				</department>
+
+				<department label="Ciência da informação">
+					<rules>
+						<match>ciencia de informacao</match>
+						<match>ciencia informacao</match>
+						<match>informat sci</match>
+						<match>informa</match>
+						<!-- Não acrescente a variante "ciencia"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/10540</handle>
+				</department>
+
+				<department label="Didática">
+					<rules>
+						<match>didatica</match>
+					</rules>
+					<handle>11449/10597</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Ourinhos">
+			<rules>
+				<match>ourinhos</match>
+				<match>19910206</match>
+			</rules>
+			<handle>11449/64</handle>
+		</campus>
+
+		<campus label="Faculdade de Ciências e Tecnologia (FCT) - Presidente Prudente">
+			<rules>
+				<match>presidente prudente</match>
+				<match>presidente prude</match>
+				<match>prudente</match>
+				<match>faculdade de ciencia e tecnologia</match>
+				<match>faculdade de ciencias e tecnologia</match>
+				<match>fac de ciencias e tecnologia</match>
+				<match>science and technology college</match>
+				<match>fac ciencias tecnol</match>
+				<match>fct</match>
+				<match>cartog</match>
+				<match>19060900</match>
+				<!-- Nome da unidade a partir de 1976 -->
+				<match>instituto de planejamento e estudos ambientais</match>
+			</rules>
+			<departments>
+
+				<department label="Matemática e computação">
+					<rules>
+						<match>matematica e computacao</match>
+						<match>mathematics and computer science</match>
+						<match>computacao</match>
+						<match>computer science</match>
+						<match>matemat estatist computacao</match>
+						<match>matemat estat comp</match>
+						<match>matemat</match>
+						<match>mathematics</match>
+						<match>math stat comp</match>
+						<match>math</match>
+					</rules>
+					<handle>11449/7084</handle>
+				</department>
+
+				<department label="Fisioterapia">
+					<rules>
+						<match>fisioterapia</match>
+						<match>phys therapy</match>
+						<match>physiotherapy</match>
+						<match>fisioterapiia</match>
+						<match>fisiot</match>
+						<match>physical therapy</match>
+					</rules>
+					<handle>11449/6979</handle>
+				</department>
+
+				<department label="Cartografia">
+					<rules>
+						<match>cartografia</match>
+						<match>cartog</match>
+					</rules>
+					<handle>11449/6633</handle>
+				</department>
+
+				<department label="Geografia">
+					<rules>
+						<match>geografia</match>
+						<match>geog</match>
+					</rules>
+					<handle>11449/7068</handle>
+				</department>
+
+				<department label="Planejamento urbanismo &amp; ambiente">
+					<rules>
+						<match>planejamento urbanismo ambiente</match>
+						<match>planejamento urbanismo e ambiente</match>
+						<match>planejamento urbanismo e ambiente</match>
+						<match>planejamento urbanismo</match>
+						<match>planning</match>
+						<match>planej</match>
+						<match>urban</match>
+						<match>ambiente</match>
+					</rules>
+					<handle>11449/7132</handle>
+				</department>
+
+				<department label="Estatística">
+					<rules>
+						<match>estatistica</match>
+						<match>estatistica</match>
+						<match>stat</match>
+					</rules>
+					<handle>11449/6774</handle>
+				</department>
+
+				<!-- Mantenha a sequência para evitar conflito -->
+
+				<department label="Educação física">
+					<rules>
+						<match>educacao fisica</match>
+						<match>physical education</match>
+						<match>phys educ</match>
+						<match>educ fis</match>
+					</rules>
+					<handle>11449/6734</handle>
+				</department>
+
+				<department label="Física, química e biologia">
+					<rules>
+						<match>fisica quimica e biologia</match>
+						<match>fisica quimica e biologia</match>
+						<match>biol</match>
+						<match>chemistry</match>
+						<match>quim</match>
+						<match>fisica</match>
+						<match>phys chem biol</match>
+						<match>fis quim biol</match>
+						<match>dfqb</match>
+						<match>dfqt</match>
+					</rules>
+					<handle>11449/6779</handle>
+				</department>
+
+				<department label="Educação">
+					<rules>
+						<match>departamento de educacao</match>
+						<match>depto educacao</match>
+						<match>dept educacao</match>
+						<match>education</match>
+					</rules>
+					<handle>11449/6725</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Registro">
+			<rules>
+				<match>registro</match>
+				<match>11900000</match>
+			</rules>
+			<handle>11449/71</handle>
+		</campus>
+
+		<campus label="Instituto de Biociências (IBRC) - Rio Claro">
+			<rules>
+				<match>rio claro</match>
+				<match>ibrc</match>
+				<match>rio carlo</match>
+				<match>rio cla</match>
+				<match>rioclaro</match>
+				<match>r clar</match>
+				<match>claro</match>
+				<match>13506900</match>
+				<match>biochemistry and microbiology</match>
+			</rules>
+			<departments>
+
+				<department label="Bioquímica e microbiologia">
+					<rules>
+						<match>bioquimica e microbiologia</match>
+						<match>bioquim</match>
+						<match>microbiologia</match>
+						<match>biochemistry</match>
+						<match>biochem</match>
+						<match>microbiol</match>
+						<!-- Laboratório de Micologia Ambiental e Industrial - LAMAI -->
+						<match>lamai</match>
+						<!-- Laboratório de Ecologia e Sistemática de Fungos (LESF) -->
+						<match>lesf</match>
+					</rules>
+					<handle>11449/20051</handle>
+				</department>
+
+				<department label="Biologia">
+					<rules>
+						<match>biologia</match>
+						<match>biology</match>
+						<match>dept biol</match>
+						<match>biol</match>
+						<match>histologia</match>
+						<match>laboratorio de microscopia eletronica</match>
+						<match>microscopia eletronica lab</match>
+					</rules>
+					<handle>11449/19393</handle>
+				</department>
+
+				<department label="Ecologia">
+					<rules>
+						<match>ecologia</match>
+						<match>ecol</match>
+						<match>labic</match>
+					</rules>
+					<handle>11449/20408</handle>
+				</department>
+
+				<department label="Botânica">
+					<rules>
+						<match>botanica</match>
+						<match>botany</match>
+						<match>dept bot</match>
+						<match>fisiologia vegetal</match>
+					</rules>
+					<handle>11449/20212</handle>
+				</department>
+
+				<department label="Zoologia">
+					<rules>
+						<match>zoologia</match>
+						<match>zool</match>
+						<match>fisiologia animal</match>
+						<match>fisiol animal</match>
+						<match>animal fisiol</match>
+						<match>herpetologia</match>
+					</rules>
+					<handle>11449/20927</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Instituto de Geociências e Ciências Exatas (IGCE) - Rio Claro">
+			<rules>
+				<match>rio claro</match>
+				<match>rio carlo</match>
+				<match>rio cla</match>
+				<match>r clar</match>
+				<match>rioclaro</match>
+				<match>claro</match>
+				<match>instituto de geociencias</match>
+				<match>inst geociencias</match>
+				<match>igce</match>
+				<match>demac</match>
+				<match>petrol</match>
+				<match>metalog</match>
+				<match>geoproc</match>
+				<match>13506900</match>
+				<!-- Acrescentado por causa do dept de Educação Física do IBRC -->
+				<match>avaliacao da performance humana</match>
+			</rules>
+			<departments>
+
+				<department label="Geografia">
+					<rules>
+						<match>geografia</match>
+						<match>geography</match>
+						<!-- Não acrescente a variante "geo"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/25047</handle>
+				</department>
+
+				<department label="Geologia aplicada">
+					<rules>
+						<match>geologia aplicada</match>
+						<match>geol aplicada</match>
+						<match>appl geol</match>
+						<match>geol gera aplicada</match>
+						<match>dept geol</match>
+						<match>dga</match>
+						<match>applied geology</match>
+						<match>geologia sedimentar</match>
+						<match>lambda</match>
+						<match>micropaleontol</match>
+						<match>lebac</match>
+						<match>labesem</match>
+						<!-- Não acrescente a variante "geo"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/25050</handle>
+				</department>
+
+				<department label="Planejamento territorial e geoprocessamento">
+					<rules>
+						<match>planejamento territorial e geoprocessamento</match>
+						<match>geoproc</match>
+						<match>planejamento terr geoproc</match>
+						<match>geoproc terr planning</match>
+						<match>territ</match>
+						<match>planej</match>
+						<match>deplan</match>
+						<!-- Não acrescente a variante "geo"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/25207</handle>
+				</department>
+
+				<department label="Petrologia e metalogenia">
+					<rules>
+						<match>petrologia e metalogenia</match>
+						<match>petrologia</match>
+						<match>petr metalogenia</match>
+						<match>petrol</match>
+						<match>metalogenia</match>
+						<match>petrology</match>
+						<match>metallogeny</match>
+						<match>dpm</match>
+					</rules>
+					<handle>11449/25145</handle>
+				</department>
+
+				<!-- Mantenha a sequência para evitar conflito -->
+
+				<department label="Estatística, matemática aplicada e computação">
+					<rules>
+						<match>estatistica matematica aplicada e computacao</match>
+						<match>computacao</match>
+						<match>estatist matemat aplicada computacao</match>
+						<match>estat matemat aplicada comp</match>
+						<match>estatist matemat aplicada comp</match>
+						<match>stat appl math computat</match>
+						<match>appl math stat</match>
+						<match>estat</match>
+						<match>comput</match>
+						<match>demac</match>
+					</rules>
+					<handle>11449/24776</handle>
+				</department>
+
+				<department label="Matemática">
+					<rules>
+						<match>matematica</match>
+						<match>math</match>
+						<match>matemat</match>
+					</rules>
+					<handle>11449/25104</handle>
+				</department>
+
+				<department label="Educação física">
+					<rules>
+						<match>educacao fisica</match>
+						<match>physical education</match>
+						<match>phys educ</match>
+						<match>educacao fis</match>
+						<match>phys educ</match>
+						<match>avaliacao da performance</match>
+						<match>avaliacao performance</match>
+						<match>biomecanica</match>
+						<match>biomechanic</match>
+						<match>human performance lab</match>
+					</rules>
+					<handle>11449/20609</handle>
+				</department>
+
+				<department label="Física">
+					<rules>
+						<match>fisica</match>
+						<match>physics</match>
+						<match>fsica</match>
+						<match>phys</match>
+						<match>fis</match>
+					</rules>
+					<handle>11449/24972</handle>
+				</department>
+
+				<department label="Educação">
+					<rules>
+						<match>educacao</match>
+						<match>educ</match>
+					</rules>
+					<handle>11449/20591</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Instituto de Biociências, Letras e Ciências Exatas (IBILCE) - São José do Rio Preto">
+			<rules>
+				<match>sao jose do rio preto</match>
+				<match>rio preto</match>
+				<match>sao jose do rio</match>
+				<match>san joseo do rio preto</match>
+				<match>s j r preto</match>
+				<match>s jose r preto</match>
+				<match>sjr preto</match>
+				<match>sjrpreto</match>
+				<match>rio pr</match>
+				<match>sao jose rio</match>
+				<match>pretro</match>
+				<match>jose rio</match>
+				<match>instituto de biociencias letras e ciencias exatas</match>
+				<match>ibilce</match>
+				<match>sao jose do preto</match>
+				<match>s jose r preto</match>
+				<match>dmap</match>
+				<match>dcce</match>
+				<match>15054000</match>
+			</rules>
+			<departments>
+
+				<department label="Ciência de computação e estatística">
+					<rules>
+						<match>ciencia de computacao e estatistica</match>
+						<match>estatistica</match>
+						<match>computacao</match>
+						<match>ciencias comp estat</match>
+						<match>comp sci stat</match>
+						<match>ciencia computacao estat</match>
+						<match>computat sci</match>
+						<match>estat</match>
+						<match>comp</match>
+						<match>computer science</match>
+						<match>statistics</match>
+						<match>dcce</match>
+					</rules>
+					<handle>11449/21693</handle>
+				</department>
+
+				<department label="Educação">
+					<rules>
+						<match>educacao</match>
+						<match>educ</match>
+						<match>education</match>
+					</rules>
+					<handle>11449/21824</handle>
+				</department>
+
+				<department label="Física">
+					<rules>
+						<match>fisica</match>
+						<match>phys</match>
+						<match>fis</match>
+					</rules>
+					<handle>11449/21946</handle>
+				</department>
+
+				<department label="Zoologia e botânica">
+					<rules>
+						<match>zoologia e botanica</match>
+						<match>bot zool</match>
+						<match>bot</match>
+						<match>zool bot</match>
+						<match>botanica</match>
+						<match>zool</match>
+						<match>zoology and botany</match>
+						<match>dzb</match>
+					</rules>
+					<handle>11449/22294</handle>
+				</department>
+
+				<department label="Química e ciências ambientais">
+					<rules>
+						<match>quimica e ciencias ambientais</match>
+						<match>ciencias ambientais</match>
+						<match>quim</match>
+						<match>environmental</match>
+						<match>ambientais</match>
+						<match>chem environm sci</match>
+						<match>chemistry</match>
+						<match>dqca</match>
+						<!-- RESOLUÇÃO UNESP Nº 88, DE 06 DE AGOSTO DE 2003 -->
+						<match>geociencia</match>
+						<match>geoscience</match>
+					</rules>
+					<handle>11449/22192</handle>
+				</department>
+
+				<department label="Estudos linguísticos e literários">
+					<rules>
+						<match>estudos linguisticos e literarios</match>
+						<match>lingu</match>
+						<match>liter</match>
+						<match>dell</match>
+						<!-- RESOLUÇÃO UNESP Nº 54, DE 26 DE AGOSTO DE 1987 -->
+						<!-- RESOLUÇÃO UNESP Nº 05, DE 01 DE FEVEREIRO DE 2000 -->
+						<match>letras vernaculas</match>
+						<match>letras classicas</match>
+						<match>teoria linguistica e literaria</match>
+						<match>vernacular</match>
+					</rules>
+					<handle>11449/21934</handle>
+				</department>
+
+				<department label="Letras modernas">
+					<rules>
+						<match>letras modernas</match>
+						<match>modernas</match>
+						<match>modern</match>
+						<match>dlem</match>
+						<!-- Não acrescente a variante "letras"; evite conflito com o nome da unidade -->
+					</rules>
+					<handle>11449/22125</handle>
+				</department>
+
+				<department label="Biologia">
+					<rules>
+						<match>biologia</match>
+						<match>biol</match>
+						<match>lhdgh</match>
+						<match>hemoglobin</match>
+						<match>hemmoglobin</match>
+					</rules>
+					<handle>11449/21324</handle>
+				</department>
+
+				<department label="Engenharia e tecnologia de alimentos">
+					<rules>
+						<match>engenharia e tecnologia de alimentos</match>
+						<match>engn tecnol alimentos</match>
+						<match>technol</match>
+						<match>food</match>
+						<match>engn food technol</match>
+						<match>tecnol engn alimentos</match>
+						<match>engenharia</match>
+						<match>tecnol</match>
+						<match>aliment</match>
+						<match>deta</match>
+					</rules>
+					<handle>11449/21827</handle>
+				</department>
+
+				<!-- Mantenha a sequência para evitar conflito -->
+
+				<department label="Matemática aplicada">
+					<rules>
+						<match>matematica aplicada</match>
+						<match>aplicada</match>
+						<match>applied</match>
+						<match>dmap</match>
+					</rules>
+					<handle>11449/22177</handle>
+				</department>
+
+				<department label="Matemática">
+					<rules>
+						<match>matematica</match>
+						<match>math</match>
+						<match>matemat</match>
+					</rules>
+					<handle>11449/22131</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Rosana">
+			<rules>
+				<match>rosana</match>
+				<match>primavera</match>
+				<match>turismo</match>
+			</rules>
+			<handle>11449/130</handle>
+		</campus>
+
+		<campus label="Instituto de Ciência e Tecnologia (ICT) - São José dos Campos">
+			<rules>
+				<match>sao jose dos campos</match>
+				<match>dos campos</match>
+				<match>sao jose campos</match>
+				<match>sao jose de campos</match>
+				<match>sao jose clos campos</match>
+				<match>s jose campos</match>
+				<match>instituto de ciencia e tecnologia</match>
+				<match>fosjc</match>
+				<match>sj campos</match>
+				<match>sjc</match>
+				<match>12245000</match>
+			</rules>
+			<departments>
+
+				<department label="Odontologia restauradora">
+					<rules>
+						<match>odontologia restauradora</match>
+						<match>restauradora</match>
+						<match>restorat dent</match>
+						<match>restorative dentistry</match>
+						<match>dent res</match>
+						<match>rest dent</match>
+						<match>odont res</match>
+						<match>odonto res</match>
+						<match>odontol rest</match>
+						<match>endodont</match>
+						<match>operative dent</match>
+					</rules>
+					<handle>11449/22858</handle>
+				</department>
+
+				<department label="Materiais odontologicos e protese">
+					<rules>
+						<match>materiais odontologicos e protese</match>
+						<match>dent mat</match>
+						<match>prosthodont</match>
+						<match>prosthodontics</match>
+						<match>prosthesis</match>
+						<match>prostheses</match>
+						<match>prostodont</match>
+						<match>materiais</match>
+						<match>protese</match>
+						<match>odon mat prosth</match>
+						<match>odont mat prosth</match>
+						<match>mat odontol</match>
+						<match>dental materials and prostheses</match>
+					</rules>
+					<handle>11449/22746</handle>
+				</department>
+
+				<department label="Biociências e diagnóstico bucal">
+					<rules>
+						<match>biociencias e diagnostico bucal</match>
+						<match>biociencias e diag bucal</match>
+						<match>biosci diagnost</match>
+						<match>biociencias diagnost bucal</match>
+						<match>oral biosci diag</match>
+						<match>biociencias diagnost oral</match>
+						<match>biosci buccal diag</match>
+						<match>oral diag biosci</match>
+						<match>biociencias diagnost bucal</match>
+						<match>biociencias diag bucal</match>
+						<match>bioci</match>
+						<match>bioscience and oral diagnosis</match>
+						<match>biopathology and oral diagnosis</match>
+						<match>bioscience and buccal diagnosis</match>
+						<match>biopathology and buccal diagnosis</match>
+						<match>bioscience and buccal diagnostic</match>
+						<match>biosciences and diagnosis</match>
+						<match>biosciences and oral diagnosis</match>
+						<match>oral diagnosis</match>
+						<match>oral biosci diag</match>
+						<match>biopatol diagnost</match>
+						<match>biopathol</match>
+						<match>biosci oral diag</match>
+						<match>biosci diag</match>
+						<match>patol</match>
+						<match>pathol</match>
+						<!-- RESOLUÇÃO UNESP Nº 86 DE 16 DE OUTUBRO DE 2000 -->
+						<match>ciencias basicas</match>
+						<match>biopatologia e diagnostico</match>
+					</rules>
+					<handle>11449/22559</handle>
+				</department>
+
+				<department label="Diagnóstico e cirurgia">
+					<rules>
+						<match>diagnostico e cirurgia</match>
+						<match>diag surg</match>
+						<match>diagnost surg</match>
+						<match>diagnostic and surgery</match>
+						<match>oral diag surg</match>
+						<match>cirurg</match>
+						<match>surgery periodontology and radiology</match>
+						<match>diagnosis and oral surgery</match>
+						<match>oral surgery</match>
+						<match>oral maxillofacial surg</match>
+						<match>histol</match>
+						<!-- RESOLUÇÃO UNESP Nº 28, DE 04 DE MARÇO DE 2005 -->
+						<match>periodontia</match>
+						<match>periodontol</match>
+						<match>radiologia</match>
+						<match>radiol</match>
+						<match>maxilo</match>
+						<match>traumatologia</match>
+						<!-- RESOLUÇÃO UNESP Nº 20, DE 08 DE JULHO DE 1981 -->
+						<match>bucofacial</match>
+					</rules>
+					<handle>11449/22722</handle>
+				</department>
+
+				<department label="Odontologia social e infantil">
+					<rules>
+						<match>odontologia social e infantil</match>
+						<match>odonto soc e cl infantil</match>
+						<match>odontologia social</match>
+						<match>social dent</match>
+						<match>social infant clin</match>
+						<match>children clin dent</match>
+						<match>social sci pediat dent</match>
+						<match>community dent pediat clin</match>
+						<match>social</match>
+						<match>odontologia social e clinica infantil</match>
+						<match>child</match>
+						<match>clin</match>
+						<match>infant</match>
+						<match>pediat</match>
+						<match>ortodont</match>
+						<match>orthodont</match>
+						<!-- RESOLUÇÃO UNESP Nº 28, DE 29 DE ABRIL DE 1998 -->
+						<match>bioestat</match>
+						<match>biostat</match>
+					</rules>
+					<handle>11449/22951</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental do Litoral Paulista - São Vicente">
+			<rules>
+				<match>sao vicente</match>
+				<match>s vicente</match>
+				<match>marine</match>
+				<match>litoral paulista</match>
+			</rules>
+			<handle>11449/246</handle>
+		</campus>
+
+		<campus label="Câmpus Experimental de Sorocaba">
+			<rules>
+				<match>sorocaba</match>
+				<match>sorocuba</match>
+				<match>controle e automacao</match>
+			</rules>
+			<departments>
+
+				<department label="Engenharia ambiental">
+					<rules>
+						<match>engenharia ambiental</match>
+						<match>environm engn</match>
+						<match>engn ambiental</match>
+						<match>ambiental</match>
+						<match>environmental</match>
+					</rules>
+					<handle>11449/136</handle>
+				</department>
+
+				<department label="Engenharia de controle e automação">
+					<rules>
+						<match>engenharia de controle e automacao</match>
+						<match>control automat engn</match>
+						<match>eca unesp</match>
+						<match>control</match>
+						<match>automa</match>
+					</rules>
+					<handle>11449/220</handle>
+				</department>
+
+				<department label="Pedagogia">
+					<rules>
+						<match>pedagogia</match>
+						<match>pedag</match>
+						<match>educacao</match>
+						<match>education</match>
+					</rules>
+					<handle>11449/225</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Câmpus Experimental de Tupã">
+			<rules>
+				<match>tupa</match>
+			</rules>
+			<handle>11449/228</handle>
+		</campus>
+
+		<campus label="Instituto de Física Teórica (IFT) - São Paulo">
+			<rules>
+				<match>instituto de fisica teorica</match>
+				<match>institute for theoretical physics</match>
+				<match>inst fis teor</match>
+				<match>nuclear physics</match>
+				<match>atomic physics</match>
+				<match>particles</match>
+				<match>fisica t</match>
+				<match>teorica</match>
+				<match>theor</match>
+				<match>ift</match>
+				<match>inst fis</match>
+			</rules>
+			<handle>11449/22983</handle>
+		</campus>
+
+		<campus label="Instituto de Artes (IA) - São Paulo">
+			<rules>
+				<match>instituto de artes</match>
+				<match>institute of arts</match>
+				<match>arts institute</match>
+				<match>inst artes</match>
+				<match>music</match>
+				<match>artes cenicas educacao e fundamentos da comunicacao</match>
+				<match>performing arts</match>
+				<match>cenicas</match>
+				<match>dacefc</match>
+				<match>artes plasticas</match>
+				<match>plastic arts</match>
+			</rules>
+			<departments>
+
+				<department label="Música">
+					<rules>
+						<match>musica</match>
+						<match>music</match>
+					</rules>
+					<handle>11449/16863</handle>
+				</department>
+
+				<department label="Artes cênicas, educação e fundamentos da comunicação">
+					<rules>
+						<match>artes cenicas educacao e fundamentos da comunicacao</match>
+						<match>performing arts</match>
+						<match>cenicas</match>
+						<match>dacefc</match>
+					</rules>
+					<handle>11449/16852</handle>
+				</department>
+
+				<department label="Artes plásticas">
+					<rules>
+						<match>artes plasticas</match>
+						<match>plastic arts</match>
+					</rules>
+					<handle>11449/16861</handle>
+				</department>
+
+			</departments>
+		</campus>
+
+		<campus label="Hospital das Clínicas de Botucatu">
+			<rules>
+				<match>hospital das clinicas</match>
+				<match>univ hosp</match>
+				<match>hosp estadual bauru</match>
+				<match>hospital estadual</match>
+				<match>hosp unesp botucatu</match>
+				<match>clin hosp</match>
+				<match>hosp clin</match>
+				<match>hosp das clinicas</match>
+			</rules>
+			<handle>11449/16842</handle>
+		</campus>
+
+		<!-- O Centro de Estudos de Insetos Sociais (CEIS) - Rio Claro foi movido para o final para evitar conflito com alguns laboratórios de insetos da FCAV - Jaboticabal -->
+
+		<campus label="Centro de Estudos de Insetos Sociais (CEIS) - Rio Claro">
+			<rules>
+				<match>centro de estudos de insetos sociais</match>
+				<match>ceis</match>
+				<match>social insects</match>
+				<match>inseto</match>
+				<match>insects</match>
+				<match>insecto</match>
+				<match>insetes sociais</match>
+				<match>molecular evolution lab</match>
+				<match>laboratorio de evolucao molecular</match>
+			</rules>
+			<handle>11449/652</handle>
+		</campus>
+		
+		<!-- O Centro de Aquicultura da Unesp (CAUNESP) - Jaboticabal foi movido para o final para evitar conflito por causa da variação "caunesp" -->
+		
+		<campus label="Centro de Aquicultura da Unesp (CAUNESP) - Jaboticabal">
+			<rules>
+				<match>aquicultura</match>
+				<match>aquaculture</match>
+				<match>aqicultura</match>
+				<match>aquiculture</match>
+				<match>aquacult</match>
+			</rules>
+			<handle>11449/412</handle>
+		</campus>
+		
+	</campi>
+</university>

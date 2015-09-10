@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="728.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controladores.Tela">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="1024.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Arquivo">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#novoXML" text="Novo" />
+                  <MenuItem mnemonicParsing="false" onAction="#abrirXML" text="Abrir" />
+                  <MenuItem mnemonicParsing="false" onAction="#salvarXML" text="Salvar" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+              <MenuItem mnemonicParsing="false" onAction="#sair" text="Fechar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane layoutY="27.0" prefHeight="700.0" prefWidth="1024.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Editor Visual">
+               <content>
+                  <SplitPane dividerPositions="0.291015625" prefHeight="200.0" prefWidth="200.0">
+                     <items>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                           <children>
+                              <Button layoutX="149.0" layoutY="2.0" mnemonicParsing="false" onAction="#adicionarCampus" text="Adicionar" />
+                              <Button layoutX="223.0" layoutY="2.0" mnemonicParsing="false" onAction="#removerCampus" text="Remover" />
+                              <ListView fx:id="listaCampi" layoutX="-1.0" layoutY="33.0" prefHeight="642.0" prefWidth="297.0" />
+                              <Label layoutX="21.0" layoutY="14.0" text="Campi" />
+                           </children>
+                        </Pane>
+                        <SplitPane dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0">
+                           <items>
+                              <SplitPane dividerPositions="0.8077496274217586" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="254.0" prefWidth="408.0">
+                                       <children>
+                                          <ListView fx:id="listaRegrasCampus" layoutY="27.0" prefHeight="183.0" prefWidth="354.0" />
+                                          <Button layoutX="288.0" layoutY="226.0" mnemonicParsing="false" onAction="#removerRegraCampus" text="Remover" />
+                                          <Button layoutX="216.0" layoutY="226.0" mnemonicParsing="false" onAction="#adicionarRegraCampus" text="Adicionar" />
+                                          <TextField fx:id="txtRegraCampus" layoutX="45.0" layoutY="226.0" prefHeight="25.0" prefWidth="167.0" />
+                                          <Label layoutX="7.0" layoutY="230.0" prefHeight="17.0" prefWidth="76.0" text="Regra" />
+                                          <Label layoutX="14.0" layoutY="6.0" text="Campus - Regras" />
+                                          <Label layoutX="14.0" layoutY="257.0" text="Campus - Departamentos" />
+                                          <ListView fx:id="listaDepartamentos" layoutY="276.0" prefHeight="183.0" prefWidth="354.0" />
+                                          <Label layoutX="3.0" layoutY="472.0" prefHeight="17.0" prefWidth="99.0" text="Departamento" />
+                                          <TextField fx:id="txtDepartamento" layoutX="90.0" layoutY="468.0" prefHeight="25.0" prefWidth="264.0" />
+                                          <Button layoutX="158.0" layoutY="500.0" mnemonicParsing="false" onAction="#adicionarDepartamento" text="Adicionar" />
+                                          <Button layoutX="234.0" layoutY="500.0" mnemonicParsing="false" onAction="#removerDepartamento" text="Remover" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label layoutX="25.0" layoutY="14.0" text="Rótulo" />
+                                          <Label layoutX="25.0" layoutY="40.0" text="Handle" />
+                                          <TextField fx:id="txtRotuloCampus" layoutX="72.0" layoutY="10.0" />
+                                          <TextField fx:id="txtHandleCampus" layoutX="72.0" layoutY="36.0" />
+                                          <Button layoutX="147.0" layoutY="75.0" mnemonicParsing="false" onAction="#aplicarAlteracoesCampus" text="Aplicar" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                              <SplitPane dividerPositions="0.8077496274217586" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="6.0" text="Departamento - Regras" />
+                                          <ListView fx:id="listaRegrasDepartamento" layoutX="3.0" layoutY="27.0" prefHeight="472.0" prefWidth="341.0" />
+                                          <Label layoutX="3.0" layoutY="508.0" prefHeight="17.0" prefWidth="76.0" text="Regra" />
+                                          <TextField fx:id="txtRegraDepartamento" layoutX="45.0" layoutY="504.0" prefHeight="25.0" prefWidth="167.0" />
+                                          <Button layoutX="219.0" layoutY="504.0" mnemonicParsing="false" onAction="#adicionarRegraDepartamento" text="Adicionar" />
+                                          <Button layoutX="290.0" layoutY="504.0" mnemonicParsing="false" onAction="#removerRegraDepartamento" text="Remover" />
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Button layoutX="153.0" layoutY="79.0" mnemonicParsing="false" onAction="#aplicarAlteracoesDepartamento" text="Aplicar" />
+                                          <TextField fx:id="txtHandleDepartamento" layoutX="78.0" layoutY="40.0" />
+                                          <TextField fx:id="txtRotuloDepartamento" layoutX="78.0" layoutY="14.0" />
+                                          <Label layoutX="31.0" layoutY="44.0" text="Handle" />
+                                          <Label layoutX="31.0" layoutY="18.0" text="Rótulo" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </items>
+                        </SplitPane>
+                     </items>
+                  </SplitPane>
+               </content>
+            </Tab>
+          <Tab text="Editor de Texto">
+               <content>
+                  <TextArea fx:id="visualizadorXML" prefHeight="200.0" prefWidth="200.0" />
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
